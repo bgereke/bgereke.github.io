@@ -14,18 +14,13 @@
   // Element: container-top-image
 
   &-image {
-    width: 500px;
-    height: 220px;
+    width: 100px;
+    height: 100px;
     transition: all .3s;
 
-    &:hover {
-      filter: brightness(1.1);
-      -webkit-filter: brightness(1.1);
-    }
-
     @include media-breakpoint-up(lg) {
-      width: 320px;
-      height: 320px;
+      width: 100px;
+      height: 100px;
     }
   }
 
