@@ -69,7 +69,10 @@
     -webkit-background-clip: padding-box;
     background-clip: padding-box;
     color: #fff;
-    text-align: center;
+
+    @include media-breakpoint-up(lg) {
+      font-size: 2rem;
+    }
   }
 
   //  .social a {
