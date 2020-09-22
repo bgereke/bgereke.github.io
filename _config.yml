@@ -42,7 +42,7 @@ favicon: "/img/favicon.ico"
 black-favicon: "/img/black-lab-glass.ico"
 logo: "/img/profile_pic.jpg" # leave blank if you don't want a logo
 
-background-img: "../img/rock-bg.jpg"
+background-img: "/img/rock-bg.jpg"
 
 ##############################
 # Dynamic Text on the Header #
@@ -147,7 +147,7 @@ timeline-img: "/img/timeline/default.png"
 # Contact #
 ###########
 
-email: "your@email.here"
+email: "bgereke@utexas.edu"
 
 
 # Set a url pointing to your publish PGP Public Key here, and it will appear in the Contact section
@@ -162,7 +162,7 @@ pgp: False
 
 # if the author_blurb is not set, then this feature is skipped
 author_blurb: "John Smith is an awesome person. He lives in Flatland, where he works on two-dimensional engineering projects. In his spare time, John likes to eat cotton candy."
-author_blurb_image: "/img/author.png"
+author_blurb_image: "/img/profile_pic.jpg"
 
 ##################
 # Social Buttons #
