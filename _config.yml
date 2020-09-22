@@ -42,7 +42,7 @@ favicon: "/img/favicon.ico"
 black-favicon: "/img/black-lab-glass.ico"
 logo: "/img/profile_pic.jpg" # leave blank if you don't want a logo
 
-background-img: "../img/rock-bg.jpg?size=500"
+background-img: "../img/intro-bg"
 
 ##############################
 # Dynamic Text on the Header #
