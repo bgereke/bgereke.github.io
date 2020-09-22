@@ -3,7 +3,7 @@
 title: Clean portfolio theme for Jekyll powered by Bootstrap 4.
 email: bgereke@utexas.edu
 brand: Brian Gereke
-headline: Machine Learning Engineer, Neuroscientist, Father of dog
+headline: Machine Learning, Data Science, Neuroscience, Father of dog
 description: > # this means to ignore newlines until "baseurl:"
   New Site
 baseurl: "" # the subpath of your site, e.g. /blog
@@ -18,7 +18,8 @@ snapwidget: 247552
 
 # Contacts
 email: bgereke@utexas.edu
-phone: ""
+github: https://github.com/bgereke
+linkedin: https://www.linkedin.com/in/brian-gereke/
 
 # Tracking
 googleAnalitycsID: UA-83933844-1
