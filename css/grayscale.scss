@@ -249,7 +249,7 @@ a {
 
 .content-section {
     margin-top: 0;
-    padding-top: 50px;
+    padding-top: 0;
     @media(min-width:767px) {
         margin-top: 0;
         padding-top: 0;
@@ -259,7 +259,7 @@ a {
         display: block;
         max-width: 100%;
         height: auto;
-        margin: 50px auto;
+        margin: 0px auto;
         border: 1px solid $font-color;
     }
     /* Added in { Personal } */
