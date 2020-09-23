@@ -248,11 +248,11 @@ a {
 }
 
 .content-section {
-    margin-top: 100px;
-    padding-top: 100px;
+    margin-top: 0;
+    padding-top: 0;
     @media(min-width:767px) {
-        margin-top: 125px;
-        padding-top: 125px;
+        margin-top: 0;
+        padding-top: 0;
     }
     /* Added in { Personal } for responsive images in posts and section contents */
     img {
@@ -327,7 +327,7 @@ ul.social-buttons li a {
     line-height: 40px;
     outline: 0;
     color: $social-buttons-color;
-    background-color: #222;
+    background-color: rgb(54, 47, 47);
 
     -webkit-transition: all .3s;
     -moz-transition: all .3s;
@@ -336,13 +336,13 @@ ul.social-buttons li a {
     &:hover,
     &:focus,
     &:active {
-        color: #222;
+        color: rgb(58, 57, 57);
         background-color: darken($social-buttons-color, 10%);
     }
 }
 
 footer {
-    padding: 50px 0;
+    padding: 0 0;
     text-align: center;
     p {
         margin: 0;
