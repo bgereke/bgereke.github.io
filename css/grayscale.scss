@@ -177,18 +177,17 @@ a {
     height: auto;
     padding: 100px 0;
     text-align: center;
-    color: $intro-text-color;
-    {% if site.background-img %}
-    background: url({{ site.background-img }}) no-repeat bottom center scroll;
-    {% endif %}
-    background-color: $header-background-color;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
+    color: $intro-text-color;    
+    
     .intro-body {
         display: table-cell;
         vertical-align: middle;
+        background: url({{ site.background-img }}) no-repeat bottom center scroll;
+        background-color: $header-background-color;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        background-size: cover;
+        -o-background-size: cover;
         .brand-heading {
             font-size: 40px;
         }
