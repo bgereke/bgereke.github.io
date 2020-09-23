@@ -33,13 +33,13 @@ author: "Brian Gereke"
 title: "{ Brian Gereke }"
 description: "Blog and website of Brian Gereke, blogging mainly for tech. Opinions expressed are mine."
 keywords: "personal, jekyll, theme"
-favicon: ""
+favicon: 
 
 ################
 # Header layout #
 ################
 
-black-favicon: ""
+black-favicon: 
 background-img: "../img/intro-bg.jpg"
 logo:  # leave blank if you don't want a logo
 
