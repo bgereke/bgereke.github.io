@@ -249,17 +249,17 @@ a {
 
 .content-section {
     margin-top: 0;
-    padding-top: 0;
+    padding-top: 50px;
     @media(min-width:767px) {
         margin-top: 0;
-        padding-top: 0;
+        padding-top: 50px;
     }
     /* Added in { Personal } for responsive images in posts and section contents */
     img {
         display: block;
         max-width: 100%;
         height: auto;
-        margin: 0 auto;
+        margin: 50px auto;
         border: 1px solid $font-color;
     }
     /* Added in { Personal } */
@@ -336,7 +336,7 @@ ul.social-buttons li a {
     &:hover,
     &:focus,
     &:active {
-        color: rgb(58, 57, 57);
+        color:  rgb(54, 47, 47);
         background-color: darken($social-buttons-color, 10%);
     }
 }
