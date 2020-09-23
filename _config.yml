@@ -200,7 +200,7 @@ keybase-in-footer: True
 pages_list:
   About: 'about'
   Skills:  'skills'
-  Projects: ''
+  Projects: 'projects'
   Timeline: 'timeline'
   Publications: 'https://pubmed.ncbi.nlm.nih.gov/?term=Brian+Gereke'
   Dissertation: 'https://utexas-etd.tdl.org/submit/16562/file/73817/GEREKE-DISSERTATION-2018.pdf'  
