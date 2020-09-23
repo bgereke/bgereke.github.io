@@ -57,7 +57,7 @@ type-speed: 8
 start-delay: 200
 delete-delay: 5000
 lines: # You can add HTML Tags in the Text
-  - text: "P(view_another_resume | read_this) l.t. P(view_another_resume)?"
+  - text: "P(view_another_resume | read_this) &lt P(view_another_resume)?"
   - text: "Keep reading to find out."
 
 me-img: "img/profile_pic.jpg"
