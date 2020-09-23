@@ -117,7 +117,7 @@ $(window).scroll(toggleNavCollapse);$(function(){$("a.page-scroll").bind("click"
 
   var myQuotes =  new Array();
   {% for line in site.lines %}
-    myQuotes.push({{ line.text }});
+    myQuotes.push("{{ line.text }}");
   {% endfor %}
 
   function shuffle(array) {
@@ -144,7 +144,7 @@ $(window).scroll(toggleNavCollapse);$(function(){$("a.page-scroll").bind("click"
   {% endif %}
 
     $(".intro-text").typed({
-      strings: myQuotes,
+      strings: ['<i>First</i> sentence.', '&amp; a second sentence.'],//myQuotes,
       typeSpeed: {{ site.type-speed }},
       backDelay: {{ site.delete-delay }},
       startDelay: {{ site.start-delay }},
