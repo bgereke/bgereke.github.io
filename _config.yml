@@ -198,13 +198,13 @@ keybase-in-footer: True
 # Sections shown in the index page
 
 pages_list:
-  About: '#about'
-  Timeline: '#timeline'
+  About: 'about'
+  Timeline: 'timeline'
   Publications: '#'
   Dissertation: 'https://utexas-etd.tdl.org/submit/16562/file/73817/GEREKE-DISSERTATION-2018.pdf'
   Portfolio: '#'
   Skills:  '#'
-  Contact: '#contact'
+  Contact: 'contact'
 
 # Exclusion list from the generated _site
 
