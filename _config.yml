@@ -58,7 +58,7 @@ start-delay: 200
 delete-delay: 5000
 lines: # You can add HTML Tags in the Text
   - text: "This website was not created by AI."
-  - text: "Breathe a sigh of relief."
+  - text: "You can breathe a sigh of relief."
 
 me-img: "img/profile_pic.jpg"
 
