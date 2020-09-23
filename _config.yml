@@ -12,7 +12,7 @@ url: "https://bgereke.github.io"
 #
 # NB! Without this *nothing* will work, because it's used in every path :)
 
-baseurl: /
+baseurl: ""
 
 # Google tracking id
 
@@ -33,13 +33,13 @@ author: "Brian Gereke"
 title: "{ Brian Gereke }"
 description: "Blog and website of Brian Gereke, blogging mainly for tech. Opinions expressed are mine."
 keywords: "personal, jekyll, theme"
-favicon: "/img/favicon.ico"
+favicon: ""
 
 ################
 # Header layout #
 ################
 
-black-favicon: "/img/black-lab-glass.ico"
+black-favicon: ""
 logo: "/img/profile_pic.jpg" # leave blank if you don't want a logo
 
 background-img: "../img/intro-bg"
@@ -112,16 +112,16 @@ post-preview-words: 96
 
 paginate: 5
 
-email-share: True
-fb-share: True
-twitter-share: True
+email-share: False
+fb-share: False
+twitter-share: False
 linkedin-share: True
-reddit-share: True
-google-plus-share: True
-tumblr-share: True
-pinterest-share: True
-pocket-share: True
-vkontakte-share: True
+reddit-share: False
+google-plus-share: False
+tumblr-share: False
+pinterest-share: False
+pocket-share: False
+vkontakte-share: False
 
 disqus-shortname: "personal-jekyll-theme"
 
