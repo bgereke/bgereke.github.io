@@ -200,10 +200,10 @@ keybase-in-footer: True
 pages_list:
   About: 'about'
   Timeline: 'timeline'
-  Publications: '#'
+  Publications: '/#'
   Dissertation: 'https://utexas-etd.tdl.org/submit/16562/file/73817/GEREKE-DISSERTATION-2018.pdf'
-  Portfolio: '#'
-  Skills:  '#'
+  Portfolio: '/#'
+  Skills:  '/#'
   Contact: 'contact'
 
 # Exclusion list from the generated _site
