@@ -175,7 +175,7 @@ a {
     display: table;
     width: 100%;
     height: auto;
-    padding: 0;
+    padding: 100px 0;
     text-align: center;
     color: $intro-text-color;
     {% if site.background-img %}
@@ -251,7 +251,8 @@ a {
 }
 
 .content-section {
-    margin-top: 1000px;
+    margin-top: 100px;
+    padding-top: 100px;
     @media(min-width:767px) {
         margin-top: 0;
         padding-top: 0;
@@ -330,6 +331,7 @@ ul.social-buttons li a {
     outline: 0;
     color: $social-buttons-color;
     background-color: rgb(54, 47, 47);
+    margin-bottom: 50px;
 
     -webkit-transition: all .3s;
     -moz-transition: all .3s;
