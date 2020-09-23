@@ -61,6 +61,7 @@ lines: # You can add HTML Tags in the Text
   - text: "You can breathe a sigh of relief."
 
 me-img: "img/profile_pic.jpg"
+profile-tag: "Machine Learning | Neurosciencing | Dog Fathering"
 
 # To use facebook profile pic comment the previous line and uncomment the following
 # line, and replace 'user_id' with your facebook user id.
