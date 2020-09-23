@@ -57,8 +57,8 @@ type-speed: 8
 start-delay: 200
 delete-delay: 5000
 lines: # You can add HTML Tags in the Text
-  - text: "P(view another resume | viewed this one) -> 0?"
-  - text: "Keep viewing to find out."
+  - text: "This website was not created by AI."
+  - text: "Breathe a sigh of relief."
 
 me-img: "img/profile_pic.jpg"
 
