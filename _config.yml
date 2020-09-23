@@ -42,7 +42,7 @@ keywords: "personal, jekyll, theme"
 # black-favicon: ""
 logo:  # leave blank if you don't want a logo
 
-background-img: "img/rock-bg"
+background-img: "img/rock-bg?width=500"
 
 ##############################
 # Dynamic Text on the Header #
