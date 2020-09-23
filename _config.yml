@@ -199,8 +199,11 @@ keybase-in-footer: True
 
 pages_list:
   About: 'about'
-  Blog: 'latest-post'
   Timeline: 'timeline'
+  Publications: ''
+  Dissertation: ''
+  Portfolio: ''
+  Skills:  ''
   Contact: 'contact'
 
 # Exclusion list from the generated _site
