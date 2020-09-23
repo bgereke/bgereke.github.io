@@ -204,6 +204,7 @@ pages_list:
   Publications: 'https://pubmed.ncbi.nlm.nih.gov/?term=Brian+Gereke'
   Dissertation: 'https://utexas-etd.tdl.org/submit/16562/file/73817/GEREKE-DISSERTATION-2018.pdf'  
   Skills:  ''
+  Resume: 'resume/Gereke_Resume.pdf'
   Contact: 'contact'
 
 # Exclusion list from the generated _site
