@@ -40,7 +40,7 @@ favicon:
 ################
 
 black-favicon: 
-background-img: "../img/intro-bg.jpg"
+background-img: #"../img/intro-bg.jpg"
 logo:  # leave blank if you don't want a logo
 
 
