@@ -42,7 +42,7 @@ keywords: "personal, jekyll, theme"
 # black-favicon: ""
 logo:  # leave blank if you don't want a logo
 
-background-img: "img/intro-bg.jpg"
+background-img: "./img/intro-bg.jpg"
 
 ##############################
 # Dynamic Text on the Header #
@@ -56,7 +56,7 @@ type-speed: 8
 start-delay: 200
 delete-delay: 5000
 lines: # You can add HTML Tags in the Text
-  - text: "P(read another resume | read this one) = 0?"
+  - text: "P(read another resume | read this one) %->% 0?"
   - text: "Keep reading to find out."
 
 me-img: "img/profile_pic.jpg"
