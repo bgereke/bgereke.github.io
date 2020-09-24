@@ -134,9 +134,13 @@ syntax-highlight: True
 ############
 
 events:
-  - image: "img/timeline/earth-timebomb.png"
-    date: "2021"
-    description: "?"
+  - image: "img/timeline/university-of-arizona.jpg"
+    date: "September 2007 - May 2012"
+    description: "Applied Math B.S."
+    subevents:
+  - image: "img/timeline/UT-Austin.png"
+    date: "September 2012 - May 2018"
+    description: "Neuroscience PhD"
     subevents:
   - image: "img/timeline/berkeley.png"
     date: "June 2018 - May 2020"
@@ -146,14 +150,11 @@ events:
         description: "i did this"
       - date: "another date"
         description: "i did this too"
-  - image: "img/timeline/UT-Austin.png"
-    date: "September 2012 - May 2018"
-    description: "Neuroscience PhD"
-    subevents:
-  - image: "img/timeline/university-of-arizona.jpg"
-    date: "September 2007 - May 2012"
-    description: "Applied Math B.S."
-    subevents:
+  - image: "img/timeline/earth-timebomb.png"
+    date: "2021"
+    description: "?"
+    subevents: 
+  
 
 # First image of the Timeline
 
