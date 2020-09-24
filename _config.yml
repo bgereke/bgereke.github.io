@@ -138,10 +138,18 @@ events:
     date: "September 2007 - May 2012"
     description: "Applied Math B.S."
     subevents:
+      - date: "a date"
+        description: "i did this"
+      - date: "another date"
+        description: "i did this too"
   - image: "img/timeline/UT-Austin.png"
     date: "September 2012 - May 2018"
     description: "Neuroscience PhD"
     subevents:
+      - date: "a date"
+        description: "i did this"
+      - date: "another date"
+        description: "i did this too"
   - image: "img/timeline/berkeley.png"
     date: "June 2018 - May 2020"
     description: "Neuroscience Postdoc"
