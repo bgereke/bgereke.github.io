@@ -20,9 +20,9 @@
           {% for sub in event.subevents %}
 
             <li class="{{ class }}">
-              <div class="timeline-subpanel">
+              <div class="timeline-panel">
                 <div class="timeline-heading">
-                  <h6>{{ sub.date }}</h6>
+                  <h4>{{ sub.date }}</h4>
                 </div>
                 <div class="timeline-body">
                   {{ sub.description | markdownify }}
