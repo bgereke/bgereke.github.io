@@ -17,6 +17,21 @@
           {% endif %}
           {% endcapture %}
 
+          {% for sub in event.subevents %}
+
+            <li class="{{ class }}">
+              <div class="timeline-subpanel">
+                <div class="timeline-heading">
+                  <h6>{{ sub.date }}</h6>
+                </div>
+                <div class="timeline-body">
+                  {{ sub.description | markdownify }}
+                </div>
+              </div>
+            </li>
+
+          {% endfor %}
+
           <li class="{{ class }}">
             <div class="timeline-image">
               <img class="img-circle img-responsive" src="{{site.baseurl}}{{ event.image }}" alt="">
@@ -29,22 +44,7 @@
                 {{ event.description | markdownify }}
               </div>
             </div>
-          </li>
-
-          {% for sub in event.subevents %}
-
-            <li class="{{ class }}">
-              <div class="timeline-panel">
-                <div class="timeline-heading">
-                  <h4>{{ sub.date }}</h4>
-                </div>
-                <div class="timeline-body">
-                  {{ sub.description | markdownify }}
-                </div>
-              </div>
-            </li>
-
-          {% endfor %}
+          </li>        
 
         {% endfor %}
 
