@@ -134,12 +134,15 @@ syntax-highlight: True
 ############
 
 events:
-  - image: "img/timeline/spidertocat.png"
-    date: "September 2013 - Today"
-    description: "Saving the neighborhood!"
-  - image: "img/timeline/baracktocat.jpg"
-    date: "September 2007 - August 2013"
-    description: "Started coding"
+  - image: "img/timeline/berkeley-lab.jpg"
+    date: "June 2018 - May 2020"
+    description: "Neuroscience Postdoc"
+  - image: "img/timeline/UT-Austin.png"
+    date: "September 2012 - May 2018"
+    description: "Neuroscience PhD"
+  - image: "img/timeline/university-of-arizona.jpg"
+    date: "September 2007 - May 2012"
+    description: "Applied Math B.S."
 
 # First image of the Timeline
 
