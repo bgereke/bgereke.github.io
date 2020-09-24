@@ -8,46 +8,42 @@
       {{ page.content | markdownify }}
 
       <ul class="timeline">
-
-        {% for event in site.events %}
-          {% assign loopindex = forloop.index | modulo: 2 %}
-          {% capture class %}
-          {% if loopindex == 0 %}
-            timeline-inverted
-          {% endif %}
-          {% endcapture %}
-
-          <li class="{{ class }}">
-            <div class="timeline-image">
-              <img class="img-circle img-responsive" src="{{site.baseurl}}{{ event.image }}" alt="">
-            </div>
-            <div class="timeline-panel">
-              <div class="timeline-heading">
-                <h4>{{ event.date }}</h4>
-              </div>
-              <div class="timeline-body">
-                {{ event.description | markdownify }}
-              </div>
-            </div>
-          </li>     
-
-          {% for sub in event.subevents %}
-
-            <li class="{{ class }}">
-              <div class="timeline-subpanel">
-                <div class="timeline-heading">
-                  <h4>{{ sub.date }}</h4>
-                </div>
-                <div class="timeline-body">
-                  {{ sub.description | markdownify }}
-                </div>
-              </div>
-            </li>
-
-          {% endfor %}   
-
-        {% endfor %}
-
+        <div class="container left">
+          <div class="content">
+            <h2>2017</h2>
+            <p>Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto mnesarchum, vim ea mazim fierent detracto. Ea quis iuvaret expetendis his, te elit voluptua dignissim per, habeo iusto primis ea eam.</p>
+          </div>
+        </div>
+        <div class="container right">
+          <div class="content">
+            <h2>2016</h2>
+            <p>Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto mnesarchum, vim ea mazim fierent detracto. Ea quis iuvaret expetendis his, te elit voluptua dignissim per, habeo iusto primis ea eam.</p>
+          </div>
+        </div>
+        <div class="container left">
+          <div class="content">
+            <h2>2015</h2>
+            <p>Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto mnesarchum, vim ea mazim fierent detracto. Ea quis iuvaret expetendis his, te elit voluptua dignissim per, habeo iusto primis ea eam.</p>
+          </div>
+        </div>
+        <div class="container right">
+          <div class="content">
+            <h2>2012</h2>
+            <p>Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto mnesarchum, vim ea mazim fierent detracto. Ea quis iuvaret expetendis his, te elit voluptua dignissim per, habeo iusto primis ea eam.</p>
+          </div>
+        </div>
+        <div class="container left">
+          <div class="content">
+            <h2>2011</h2>
+            <p>Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto mnesarchum, vim ea mazim fierent detracto. Ea quis iuvaret expetendis his, te elit voluptua dignissim per, habeo iusto primis ea eam.</p>
+          </div>
+        </div>
+        <div class="container right">
+          <div class="content">
+            <h2>2007</h2>
+            <p>Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto mnesarchum, vim ea mazim fierent detracto. Ea quis iuvaret expetendis his, te elit voluptua dignissim per, habeo iusto primis ea eam.</p>
+          </div>
+        </div>
       </ul>
     </div>
   </div>
