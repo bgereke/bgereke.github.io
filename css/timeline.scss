@@ -64,6 +64,13 @@
     text-align: left;
 }
 
+.timeline>li .timeline-subpanel:before {
+    right: auto;
+    left: -15px;
+    border-right-width: 15px;
+    border-left-width: 0;
+}
+
 .timeline>li .timeline-subpanel:after {
     content: '';
     position: absolute;
