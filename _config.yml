@@ -134,6 +134,9 @@ syntax-highlight: True
 ############
 
 events:
+  - image: "img/timeline/earth-timebomb.png"
+    date: "2021"
+    description: "?"
   - image: "img/timeline/berkeley.png"
     date: "June 2018 - May 2020"
     description: "Neuroscience Postdoc"
