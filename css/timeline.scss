@@ -56,7 +56,7 @@
     border-left-width: 0;
 }
 
-.timeline-subpanel::after {
+.timeline>li .timeline-subpanel:after {
     content: '';
     position: absolute;
     width: 25px;
