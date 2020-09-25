@@ -3,7 +3,6 @@
 <div class="row ">
     <div class="col-md-10 col-md-offset-1">
     {{ page.content | markdownify }}
-    <iframe src="https://giphy.com/embed/de5bARu0SsXiU" width="480" height="253" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
     </div>
     <div class="row row-legend justify-content-center">
         <div class="col-12 p-0 text-center">
@@ -29,7 +28,7 @@
             </div>
             <div class="row">
                 {% for subitem in item.subtopic %}
-                {% assign level = subitem.level/5*100 %}
+                {% assign level = {{subitem.level}}/5*100 %}
                 <div class="col-12 text-right">
                     <p>{{ subitem.name }} - {{ subitem.level }}</p>
                     <div class="skill-bar">
