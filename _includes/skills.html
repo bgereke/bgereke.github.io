@@ -22,20 +22,20 @@
         Hover cursor over bars for more information
     </div>
     <div class="row about-row justify-content-center">
-        {% for topic in site.skills %}
+        {% for item in site.skills %}
         <div class="col-lg-3 col-md-6 col-12">
             <div class="skill-cat text-center">
-                <h5>{{ topic }}</h5>
+                <h5>{{ item.topic }}</h5>
             </div>
             <div class="row">
-                {% for item in topic.subtopic %}
-                {% assign level = item.level[1]/5*100 %}
+                {% for subitem in item.subtopic %}
+                {% assign level = subitem.level/5*100 %}
                 <div class="col-12 text-right">
-                    <p>{{ item.name[1] }} - {{ item.level[1] }}</p>
+                    <p>{{ subitem.name }} - {{ subitem.level }}</p>
                     <div class="skill-bar">
                         <div class="skill-spec" style="width: {{ level }}%;">
                         </div>
-                        <span class="tooltiptext">{{ item.text[1] }}</span>
+                        <span class="tooltiptext">{{ subitem.text }}</span>
                     </div>
                 </div>
                 {% endfor %}
