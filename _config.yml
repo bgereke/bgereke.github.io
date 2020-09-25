@@ -137,58 +137,58 @@ skills:
   - topic: "Programming Languages"
     subtopic: 
       - name: "Python"
-        level: 3
-        percent: 60
+        level: "3"
+        percent: "60"
         text: "~5 yrs"
       - name: "R"
-        level: 4
-        percent: 80
+        level: "4"
+        percent: "80"
         text: "~5 yrs"
       - name: "Matlab"
-        level: 4
-        percent: 80
+        level: "4"
+        percent: "80"
         text: "<iframe src="https://giphy.com/embed/de5bARu0SsXiU" width="480" height="253" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>"
   - topic: "Machine Learning"
     subtopic:
       - name: "Supervised"
-        level: 4
-        percent: 80
+        level: "4"
+        percent: "80"
         text: "GLM(M)s, GAM(M)s, SVMs, GBTs, ..."
       - name: "Unsupervised"
-        level: 4
-        percent: 80
+        level: "4"
+        percent: "80"
         text: "PCA, fPCA, UMAP, ..."
       - name: "Deep Learning"
-        level: 2
-        percent: 40
+        level: "2"
+        percent: "40"
         text: "CNNs, some PyTorch, some TensorFlow" 
   - topic: "Software Engineering"
     subtopic:
       - name: "Frontend"
-        level: 2
-        percent: 40
+        level: "2"
+        percent: "40"
         text: "HTML, CSS, JavaScript, Vue.js, chrome extensions, Github Pages"
       - name: "Databases"
-        level: 2
-        percent: 40
+        level: "2"
+        percent: "40"
         text: "PostreSQL"
       - name: "APIs"
-        level: 2
-        percent: 40
+        level: "2"
+        percent: "40"
         text: "Flask, FastAPI" 
   - topic: "Data Science"
     subtopic:
       - name: "Wrangling"
-        level: 3
-        percent: 60
+        level: "3"
+        percent: "60"
         text: "Pandas, Numpy, dplyr"
       - name: "Visualization"
-        level: 4
-        percent: 80
+        level: "4"
+        percent: "80"
         text: "matplotlib, seaborn, ggplot2, rgl, autodesk inventor"
       - name: "Statistics"
-        level: 3
-        percent: 60
+        level: "3"
+        percent: "60"
         text: "descriptive, predictive, prescriptive" 
 
 ############
