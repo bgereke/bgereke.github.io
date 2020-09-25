@@ -147,7 +147,7 @@ skills:
       - name: "Matlab"
         level: "4"
         percent: "80"
-        text: "<iframe src="https://giphy.com/embed/de5bARu0SsXiU" width="480" height="253" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>"
+        text: <iframe src="https://giphy.com/embed/de5bARu0SsXiU" width="480" height="253" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
   - topic: "Machine Learning"
     subtopic:
       - name: "Supervised"
