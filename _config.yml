@@ -147,7 +147,7 @@ skills:
       - name: "Matlab"
         level: "4"
         percent: "80"
-        text: <blockquote class="reddit-card" data-card-created="1601065553"><a href="https://www.reddit.com/r/gifs/comments/2hacxx/old_man_vs_technology_feat_linda/">Old Man vs. Technology (feat. Linda)</a> from <a href="http://www.reddit.com/r/gifs">r/gifs</a></blockquote>
+        text: <iframe src="https://giphy.com/embed/de5bARu0SsXiU" width="480" height="253" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
   - topic: "Machine Learning"
     subtopic:
       - name: "Supervised"
