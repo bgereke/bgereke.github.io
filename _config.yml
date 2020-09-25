@@ -134,7 +134,7 @@ syntax-highlight: True
 ##########
 
 skills:
-  - topic: "Programming Languages"
+  - topic: "Languages"
     subtopic: 
       - name: "Python"
         level: "3"
