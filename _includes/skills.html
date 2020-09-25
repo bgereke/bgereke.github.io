@@ -4,13 +4,13 @@
     <div class="col-md-10 col-md-offset-1">
         {{ page.content | markdownify }}
         <p>
-            <b>1</b> - Unqualified for inclusion<span class="about-legend"></span>
-            <b>2</b> - Have used in project(s)<span class="about-legend"></span>
-            <b>3</b> - Used enough to know I'm a three
+            1 - Unqualified for inclusion<span class="about-legend"></span>
+            2 - Have used in project(s)<span class="about-legend"></span>
+            3 - Average > Median
         </p>
         <p class="m-0">
-            <b>4</b> - My happy place<span class="about-legend"></span>
-            <b>5</b> - If this were the only skill I focused on for the rest of my life
+            4 - My happy place<span class="about-legend"></span>
+            5 - If this were the only skill I focused on for the rest of my life
         </p>
         <div class="row row-legend justify-content-center about-header">
             Hover cursor over bars for more information
@@ -30,7 +30,7 @@
             <div class="row">
                 {% for subitem in item.subtopic %}
                 <div class="col-12 text-right">
-                    <p><b>{{ subitem.name }}</b> - {{ subitem.level }}</p>
+                    <p>{{ subitem.name }} - {{ subitem.level }}</p>
                     <div class="skill-bar">
                         <div class="skill-spec" style="width: {{ subitem.percent }}%;">
                         </div>
