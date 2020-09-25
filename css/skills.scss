@@ -48,8 +48,7 @@
 /* Tooltip text */
 .skill-bar .tooltiptext {
   visibility: hidden;
-  width: 480px;
-  min-height: 30px; ;
+  display: block;
   background-image: linear-gradient(to bottom right, #F8F8F8, #FFFFFF);
   color: #000000;
   text-align: center;
