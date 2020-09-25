@@ -28,11 +28,10 @@
             </div>
             <div class="row">
                 {% for subitem in item.subtopic %}
-                {% assign level = {{subitem.level}}/5*100 %}
                 <div class="col-12 text-right">
                     <p>{{ subitem.name }} - {{ subitem.level }}</p>
                     <div class="skill-bar">
-                        <div class="skill-spec" style="width: {{ level }}%;">
+                        <div class="skill-spec" style="width: {{ subitem.percent }}%;">
                         </div>
                         <span class="tooltiptext">{{ subitem.text }}</span>
                     </div>
