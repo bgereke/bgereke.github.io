@@ -207,15 +207,13 @@ projects:
       - name: "Code"
         url: "https://github.com/bgereke/bgereke.github.io"
   - name: "placeholder2"
-    description: "this is the first placeholder project"
+    description: "this is the second placeholder project"
     image: "img/projects/labtocat.png"
     url: "https://github.com/bgereke/bgereke.github.io"
     skills: "skill1, skill2, skill3..."
     buttons:
       - name: "Code"
         url: "https://github.com/bgereke/bgereke.github.io"
-
-
 
 ############
 # Timeline #
