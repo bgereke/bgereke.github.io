@@ -48,14 +48,15 @@
 /* Tooltip text */
 .skill-bar .tooltiptext {
   visibility: hidden;
-//   width: 120px;
+  width: auto;
+  overflow: auto;
   background-image: linear-gradient(to bottom right, #F8F8F8, #FFFFFF);
   color: #000000;
   text-align: center;
-//   padding: 5px;
+  padding: 5px;
   border-radius: 6px;
-//   top: -38px;
-//   right: 55%;
+  top: 38px;
+  right: 55%;
   box-shadow: 2px 2px 5px 2px rgba(0,0,0,0.3);
   position: relative;
   z-index: 100;
