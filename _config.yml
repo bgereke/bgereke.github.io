@@ -129,6 +129,77 @@ disqus-shortname: "personal-jekyll-theme"
 
 syntax-highlight: True
 
+##########
+# Skills #
+##########
+
+{% for topic, one_skill in site.skills %}
+<div class="col-lg-3 col-md-6 col-12">
+    <div class="skill-cat text-center">
+        <h5>{{ topic }}</h5>
+    </div>
+    <div class="row">
+        {% for item in one_skill %}
+        {% set level = item[1]/5*100 %}
+        <div class="col-12 text-right">
+            <p>{{ item[0] }} - {{ item[1] }}</p>
+            <div class="skill-bar">
+                <div class="skill-spec" style="width: {{ level }}%;">
+                </div>
+                <span class="tooltiptext">{{ item[2] }}</span>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+</div>
+{% endfor %}
+
+skills:
+  - topic: "Programming Languages"
+    subtopic: 
+      - name: "Python"
+        level: 3
+        text: "~5 yrs"
+      - name: "R"
+        level: 4
+        text: "~5 yrs"
+      - name: "Matlab"
+        level: 4
+        text: "~10 yrs"
+  - topic: "Machine Learning"
+    subtopic:
+      - name: "Supervised"
+        level: 4
+        text: "GLM(M)s, GAM(M)s, SVMs, GBTs, ..."
+      - name: "Unsupervised"
+        level: 4
+        text: "PCA, fPCA, UMAP, ..."
+      - name: "Deep Learning"
+        level: 2
+        text: "CNNs, some PyTorch, some TensorFlow" 
+  - topic: "Software Engineering"
+    subtopic:
+      - name: "Frontend"
+        level: 2
+        text: "HTML, CSS, JavaScript, Vue.js, chrome extensions, Github Pages"
+      - name: "Databases"
+        level: 2
+        text: "PostreSQL"
+      - name: "APIs"
+        level: 2
+        text: "Flask, FastAPI" 
+  - topic: "Data Science"
+    subtopic:
+      - name: "Wrangling"
+        level: 3
+        text: "Pandas, Numpy, dplyr"
+      - name: "Visualization"
+        level: 4
+        text: "matplotlib, seaborn, ggplot2, rgl, autodesk inventor"
+      - name: "Statistics"
+        level: 3
+        text: "descriptive, predictive, prescriptive" 
+
 ############
 # Timeline #
 ############
