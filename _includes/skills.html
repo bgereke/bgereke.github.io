@@ -29,7 +29,7 @@
             </div>
             <div class="row">
                 {% for item in topic.subtopic %}
-                {% set level = item.level[1]/5*100 %}
+                {% assign level = item.level[1]/5*100 %}
                 <div class="col-12 text-right">
                     <p>{{ item.name[1] }} - {{ item.level[1] }}</p>
                     <div class="skill-bar">
