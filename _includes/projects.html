@@ -13,9 +13,9 @@
                 <h4 target="_blank" class="title-link" href="{{ item.url }}">{{ item.name }}</h4>
                 <p>{{ item.description }}</p>
                 <p>
-                    {% for button in item.buttons %}
-                    <a target="_blank" href="{{ button.url }}" class="btn btn-primary rounded-0" role="button">{{ button.name }}</a>
-                    {% endfor %}
+                {% for button in item.buttons %}
+                <a target="_blank" href="{{ button.url }}" class="btn btn-primary" role="button">{{ button.name }}</a>
+                {% endfor %}
                 </p>
             </div>
             </div>
