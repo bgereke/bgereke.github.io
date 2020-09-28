@@ -5,69 +5,32 @@
             {{ page.content | markdownify }}
             <!-- <iframe src="https://giphy.com/embed/hrRJ41JB2zlgZiYcCw" width="480" height="270" frameBorder="0" class="giphy-embed" allowFullScreen></iframe> -->
         </div>
+        {% for item in site.projects %}
         <div class="col-sm-6 col-md-4">
             <div class="thumbnail">
-            <img src="img/projects/jetpacktocat.png" alt="..." style="width:100%">
+            <img href="{{ item.url }}" src={{item.image}} alt="..." style="width:100%">
             <div class="caption">
-                <h3>Thumbnail label</h3>
-                <p>sdfnsikfjsdkf dkfjnbk adjnbf falknafdlknfd  adlkfnl aikfjhb!</p>
-                <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
+                <h3 target="_blank" class="title-link" href="{{ item.url }}">{{ item.name }}</h3>
+                <p>{{ item.description }}</p>
+                {% for button in item.buttons %}
+                    {% if item.buttons|length == 2 %}
+                        <div class="col-6 text-center">
+                            <a target="_blank" href="{{ button.url }}" class="button btn portfolio-btn rounded-0">{{ button.name }}</a>
+                        </div>
+                    {% else %}
+                        <div class="col-12 text-center">
+                            <a target="_blank" href="{{ button.url }}" class="button btn portfolio-btn rounded-0">{{ button.name }}</a>
+                        </div>
+                    {% endif %}
+                {% endfor %}
+                <!-- <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p> -->
             </div>
             </div>
         </div>
-        <div class="col-sm-6 col-md-4">
-            <div class="thumbnail">
-            <img src="img/projects/jetpacktocat.png" alt="..." style="width:100%">
-            <div class="caption">
-                <h3>Thumbnail label</h3>
-                <p>sdfnsikfjsdkf dkfjnbk adjnbf falknafdlknfd  adlkfnl aikfjhb!</p>
-                <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
-            </div>
-            </div>
-        </div>
-        <div class="col-sm-6 col-md-4">
-            <div class="thumbnail">
-            <img src="img/projects/labtocat.png" alt="..." style="width:100%">
-            <div class="caption">
-                <h3>Thumbnail label</h3>
-                <p>sdfnsikfjsdkf dkfjnbk adjnbf falknafdlknfd  adlkfnl aikfjhb!</p>
-                <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
-            </div>
-            </div>
-        </div>
-        <div class="col-sm-6 col-md-4">
-            <div class="thumbnail">
-            <img src="img/projects/jetpacktocat.png" alt="..." style="width:100%">
-            <div class="caption">
-                <h3>Thumbnail label</h3>
-                <p>sdfnsikfjsdkf dkfjnbk adjnbf falknafdlknfd  adlkfnl aikfjhb!</p>
-                <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
-            </div>
-            </div>
-        </div>
-        <div class="col-sm-6 col-md-4">
-            <div class="thumbnail">
-            <img src="img/projects/labtocat.png" alt="..." style="width:100%">
-            <div class="caption">
-                <h3>Thumbnail label</h3>
-                <p>sdfnsikfjsdkf dkfjnbk adjnbf falknafdlknfd  adlkfnl aikfjhb!</p>
-                <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
-            </div>
-            </div>
-        </div>
-        <div class="col-sm-6 col-md-4">
-            <div class="thumbnail">
-            <img src="img/projects/jetpacktocat.png" alt="..." style="width:100%">
-            <div class="caption">
-                <h3>Thumbnail label</h3>
-                <p>sdfnsikfjsdkf dkfjnbk adjnbf falknafdlknfd  adlkfnl aikfjhb!</p>
-                <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
-            </div>
-            </div>
-        </div>
+        {% endfor %}
 
-        <!-- <div class="row portfolio-row justify-content-center">
-            {% for item in site.projects %}
+  
+            <!-- {% for item in site.projects %}
             <div class="row portfolio-row justify-content-center">
                 <div class="col-12 col-md-5">
                     <div class="text-center">
@@ -99,8 +62,7 @@
                     </div>
                 </div>
             </div>
-            {% endfor %}
-        </div> -->
+            {% endfor %} -->
     </div>
     </section>  
     <!-- Skills End -->
