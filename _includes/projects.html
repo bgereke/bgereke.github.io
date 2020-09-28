@@ -3,57 +3,43 @@
     <div class="row">
         <div class="col-md-10 col-md-offset-1">
             {{ page.content | markdownify }}
-            <iframe src="https://giphy.com/embed/hrRJ41JB2zlgZiYcCw" width="480" height="270" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+            <!-- <iframe src="https://giphy.com/embed/hrRJ41JB2zlgZiYcCw" width="480" height="270" frameBorder="0" class="giphy-embed" allowFullScreen></iframe> -->
         </div>
-        <!-- <div class="col-sm-6 col-md-4">
-            <div class="thumbnail">
-            <img src="img/projects/jetpacktocat.png" alt="...">
-            <div class="caption">
-                <h3>Thumbnail label</h3>
-                <p>sdfnsjdvnsd dsjfn oiindfos sidjfg oslngf lsndflksndfglnsdflgn slndfgls</p>
-                <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
-            </div>
-            </div>
-        </div> -->
-    </div>
-</section>  
-        
-
-        <!-- <div class="container p-0">
+        <!-- <div class="row portfolio-row justify-content-center">
+            {% for item in site.projects %}
             <div class="row portfolio-row justify-content-center">
-                {% for item in site.projects %}
-                <div class="row portfolio-row justify-content-center">
-                    <div class="col-12 col-md-5">
-                        <div class="text-center">
-                            <a target="_blank" class="title-link" href="{{ item.url }}"><h5>{{ item.name }}</h5></a>
-                            <p class="project-des">
-                                {{ item.description }}
-                            </p>
-                            <p class="skills">
-                                <span class="bold">Skills:</span> {{ item.skills }}
-                            </p>
-                        </div>
-                        <div class="row">
-                            <a target="_blank" href="{{ item.url }}">
-                                <img class="portfolio-img" src={{item.image}}>
-                            </a>
-                        </div>
-                        <div class="row">
-                            {% for button in item.buttons %}
-                                {% if item.buttons|length == 2 %}
-                                    <div class="col-6 text-center">
-                                        <a target="_blank" href="{{ button.url }}" class="button btn portfolio-btn rounded-0">{{ button.name }}</a>
-                                    </div>
-                                {% else %}
-                                    <div class="col-12 text-center">
-                                        <a target="_blank" href="{{ button.url }}" class="button btn portfolio-btn rounded-0">{{ button.name }}</a>
-                                    </div>
-                                {% endif %}
-                            {% endfor %}
-                        </div>
+                <div class="col-12 col-md-5">
+                    <div class="text-center">
+                        <a target="_blank" class="title-link" href="{{ item.url }}"><h5>{{ item.name }}</h5></a>
+                        <p class="project-des">
+                            {{ item.description }}
+                        </p>
+                        <p class="skills">
+                            <span class="bold">Skills:</span> {{ item.skills }}
+                        </p>
+                    </div>
+                    <div class="row">
+                        <a target="_blank" href="{{ item.url }}">
+                            <img class="portfolio-img" src={{item.image}}>
+                        </a>
+                    </div>
+                    <div class="row">
+                        {% for button in item.buttons %}
+                            {% if item.buttons|length == 2 %}
+                                <div class="col-6 text-center">
+                                    <a target="_blank" href="{{ button.url }}" class="button btn portfolio-btn rounded-0">{{ button.name }}</a>
+                                </div>
+                            {% else %}
+                                <div class="col-12 text-center">
+                                    <a target="_blank" href="{{ button.url }}" class="button btn portfolio-btn rounded-0">{{ button.name }}</a>
+                                </div>
+                            {% endif %}
+                        {% endfor %}
                     </div>
                 </div>
-                {% endfor %}
             </div>
+            {% endfor %}
         </div> -->
-<!-- Skills End -->
+    </div>
+    </section>  
+    <!-- Skills End -->
