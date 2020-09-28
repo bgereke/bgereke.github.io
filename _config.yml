@@ -202,9 +202,9 @@ projects:
     url: "https://github.com/bgereke/bgereke.github.io"
     skills: "skill1, skill2, skill3..."
     buttons:
-      - name: "Blog"
+      - name: "BLOG"
         url: "https://github.com/bgereke/bgereke.github.io"
-      - name: "Code"
+      - name: "CODE"
         url: "https://github.com/bgereke/bgereke.github.io"
   - name: "placeholder2"
     description: "this is the second placeholder project"
@@ -212,7 +212,7 @@ projects:
     url: "https://github.com/bgereke/bgereke.github.io"
     skills: "skill1, skill2, skill3..."
     buttons:
-      - name: "Code"
+      - name: "CODE"
         url: "https://github.com/bgereke/bgereke.github.io"
   - name: "placeholder3"
     description: "this is the first placeholder project"
@@ -220,9 +220,9 @@ projects:
     url: "https://github.com/bgereke/bgereke.github.io"
     skills: "skill1, skill2, skill3..."
     buttons:
-      - name: "Blog"
+      - name: "BLOG"
         url: "https://github.com/bgereke/bgereke.github.io"
-      - name: "Code"
+      - name: "CODE"
         url: "https://github.com/bgereke/bgereke.github.io"
   - name: "placeholder4"
     description: "this is the second placeholder project"
@@ -230,7 +230,7 @@ projects:
     url: "https://github.com/bgereke/bgereke.github.io"
     skills: "skill1, skill2, skill3..."
     buttons:
-      - name: "Code"
+      - name: "CODE"
         url: "https://github.com/bgereke/bgereke.github.io"
   - name: "placeholder5"
     description: "this is the first placeholder project"
@@ -238,9 +238,9 @@ projects:
     url: "https://github.com/bgereke/bgereke.github.io"
     skills: "skill1, skill2, skill3..."
     buttons:
-      - name: "Blog"
+      - name: "BLOG"
         url: "https://github.com/bgereke/bgereke.github.io"
-      - name: "Code"
+      - name: "CODE"
         url: "https://github.com/bgereke/bgereke.github.io"
   - name: "placeholder6"
     description: "this is the second placeholder project"
@@ -248,7 +248,7 @@ projects:
     url: "https://github.com/bgereke/bgereke.github.io"
     skills: "skill1, skill2, skill3..."
     buttons:
-      - name: "Code"
+      - name: "CODE"
         url: "https://github.com/bgereke/bgereke.github.io"
 
 ############
