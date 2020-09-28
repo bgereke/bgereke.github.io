@@ -13,8 +13,9 @@
                 <h3 target="_blank" class="title-link" href="{{ item.url }}">{{ item.name }}</h3>
                 <p>{{ item.description }}</p>
                 <p>
-                    <a href="#" class="btn btn-primary" role="button">Code</a> 
-                    <a href="#" class="btn btn-primary" role="button">Blog</a>
+                    {% for button in item.buttons %}
+                    <a href="{{ button.url }}" class="btn btn-primary" role="button">{{ button.name }}</a>
+                    {% endfor %}
                 </p>
             </div>
             </div>
