@@ -12,6 +12,7 @@
             <div class="caption">
                 <h3 target="_blank" class="title-link" href="{{ item.url }}">{{ item.name }}</h3>
                 <p>{{ item.description }}</p>
+                <div class="row"></div>
                 {% for button in item.buttons %}
                     {% if item.buttons|length == 2 %}
                         <div class="col-6 text-center">
@@ -31,6 +32,7 @@
                         </div>
                     {% endif %}
                 {% endfor %}
+                </div>
             </div>
             </div>
         </div>
