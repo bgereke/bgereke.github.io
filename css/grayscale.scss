@@ -308,6 +308,7 @@ a {
     -moz-transition: all .3s ease-in-out;
     transition: all .3s ease-in-out;
     text-shadow: 0 0 2px rgba(0, 0, 0, 0.8);
+    background-color: $font-color;
 }
 
 .btn-default {
@@ -334,7 +335,7 @@ ul.social-buttons li a {
     line-height: 40px;
     outline: 0;
     color: $social-buttons-color;
-    background-color: rgb(54, 47, 47);
+    background-color: $font-color;
     margin-bottom: 50px;
 
     -webkit-transition: all .3s;
