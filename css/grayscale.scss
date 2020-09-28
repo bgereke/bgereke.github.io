@@ -312,11 +312,11 @@ a {
 }
 
 .btn:hover {
-    border: 1px solid white;
+    border: 1px solid $font-color;
     outline: 0;
     color: $font-color;
     text-shadow: 0 0 2px rgba(49, 34, 34, 0.8);
-    background-color: $primary-color;
+    background-color: white;
 }
 
 .btn-default {
