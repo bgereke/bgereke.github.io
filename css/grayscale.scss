@@ -111,7 +111,7 @@ a {
     a {
         color: $navbar-color;
         @if $header-text-shadow{
-            text-shadow: 0 0 2px rgba(0, 0, 0, 0.8);
+            text-shadow: 0 0 2px rgba(49, 34, 34, 0.8);
         }
     }
     .nav {
@@ -316,7 +316,7 @@ a {
     border: 1px solid white;
     outline: 0;
     color: $font-color;
-    text-shadow: 0 0 2px rgba(54, 47, 47, 0.8);
+    text-shadow: 0 0 2px rgba(49, 34, 34, 0.8);
     background-color: $secondary-color;
 }
 
