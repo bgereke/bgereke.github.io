@@ -317,6 +317,7 @@ a {
     color: $font-color;
     text-shadow: 0 0 2px rgba(49, 34, 34, 0.8);
     background-color: $secondary-color;
+    background-color: darken($social-buttons-color, 10%);
 }
 
 .btn-default {
@@ -353,7 +354,7 @@ ul.social-buttons li a {
     &:hover,
     &:focus,
     &:active {
-        color:  rgb(54, 47, 47);
+        color:  $font-color;
         background-color: darken($social-buttons-color, 10%);
     }
 }
