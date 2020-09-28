@@ -311,7 +311,9 @@ a {
     background-color: $font-color;
 }
 
-.btn:hover {
+.btn:hover,
+.btn:focus,
+.btn:active {
     border: 1px solid $font-color;
     outline: 0;
     color: $font-color;
