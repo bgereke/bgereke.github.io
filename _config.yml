@@ -196,16 +196,18 @@ skills:
 ############
 
 projects:
-  - name: "placeholder1"
-    description: "this is the first placeholder project"
-    image: "img/projects/jetpacktocat.png"
+  - name: "ReachMaster"
+    description: "A pneumatically-actuated robotic system for complex rodent reaching tasks I developed at Berkeley National Lab"
+    image: "img/projects/robot.png"
     url: "https://github.com/bgereke/bgereke.github.io"
     skills: "skill1, skill2, skill3..."
     buttons:
-      - name: "BLOG"
-        url: "https://github.com/bgereke/bgereke.github.io"
       - name: "CODE"
-        url: "https://github.com/bgereke/bgereke.github.io"
+        url: "https://github.com/bgereke/ReachMaster"
+      - name: "DOCUMENTATION"
+        url: "https://reachmaster.readthedocs.io/en/latest/"
+      - name: "POSTER"
+        url: "img/projects/SfN2019_final_outlines.pdf"
   - name: "placeholder2"
     description: "this is the second placeholder project"
     image: "img/projects/labtocat.png"
