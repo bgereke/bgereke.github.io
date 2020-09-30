@@ -209,7 +209,7 @@ projects:
       - name: "POSTER"
         url: "img/projects/SfN2019.pdf"
       - name: "VIDEO"
-        url: "https://drive.google.com/file/d/1Fsxzg0o2jGArsCK6Ou7SbIMHfY0IJDDJ/view?usp=sharing"
+        url: "https://drive.google.com/file/d/1Fsxzg0o2jGArsCK6Ou7SbIMHfY0IJDDJ/view"
   - name: "placeholder2"
     description: "this is the second placeholder project"
     image: "img/projects/labtocat.png"
