@@ -6,10 +6,6 @@
         </div>
         {% for item in site.projects %}
         <div class="col-sm-6 col-md-4">
-            {% assign loopindex = forloop.index | modulo: 3 %}
-            {% if loopindex == 0 %}
-            <li style="clear:both"></li>
-            {% endif %}
             <div class="thumbnail">
             <img class="project-img" href="{{ item.url }}" src={{item.image}} alt="...">
             <div class="project-caption">
