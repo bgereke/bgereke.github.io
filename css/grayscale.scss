@@ -258,11 +258,12 @@ a {
     }
     /* Added in { Personal } for responsive images in posts and section contents */
     img {
-        display: block;
+        display: inline-block;
         max-width: 100%;
         height: auto;
         margin: 0px auto;
         border: 4px solid white; //$font-color;
+        vertical-align: bottom;
     }
     /* Added in { Personal } */
     ul,
@@ -305,8 +306,6 @@ a {
 
 .project-img {
     width: 100%;
-    display: inline-block;
-    vertical-align: bottom;
 }
 
 .project-description {
