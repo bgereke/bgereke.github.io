@@ -209,7 +209,7 @@ projects:
       - name: "POSTER"
         url: "img/projects/SfN2019.pdf"
       - name: "VIDEO"
-        url: "img/projects/reaching_example.mp4"
+        url: "img/projects/reaching_example.html"
   - name: "placeholder2"
     description: "this is the second placeholder project"
     image: "img/projects/labtocat.png"
