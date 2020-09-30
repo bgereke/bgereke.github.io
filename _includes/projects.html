@@ -11,7 +11,7 @@
             <img class="project-img" href="{{ item.url }}" src={{item.image}} alt="...">
             <div class="project-caption">
                 <h4 target="_blank" class="title-link" href="{{ item.url }}">{{ item.name }}</h4>
-                <p>{{ item.description }}</p>
+                <p class=project-description>{{ item.description }}</p>
                 <p>
                 {% for button in item.buttons %}
                 {% if button.name == "POSTER" %}
