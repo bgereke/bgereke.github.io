@@ -298,10 +298,10 @@ a {
 
 .thumbnail {
     border-color: transparent;
+    display: flex;
     h4 {
         margin-bottom: 5px;
     }
-    height: 450px;
 }
 
 .project-img {
@@ -322,7 +322,6 @@ a {
     text-shadow: 0 0 4px rgba(255, 255, 255, 0.6);
     background-color: $font-color;
     margin-bottom: 5px;
-    bottom: 10%;
 }
 
 .btn:hover,
