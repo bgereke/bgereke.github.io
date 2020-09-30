@@ -298,9 +298,7 @@ a {
 
 .thumbnail {
     border-color: transparent;
-    clear: both;
-    list-style: none;
-    display: inline;
+    float: left;
     h4 {
         margin-bottom: 5px;
     }
