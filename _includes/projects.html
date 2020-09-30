@@ -3,10 +3,13 @@
     <div class="row">
         <div class="col-md-10 col-md-offset-1">
             {{ page.content | markdownify }}
-            <!-- <iframe src="https://giphy.com/embed/hrRJ41JB2zlgZiYcCw" width="480" height="270" frameBorder="0" class="giphy-embed" allowFullScreen></iframe> -->
         </div>
         {% for item in site.projects %}
         <div class="col-sm-6 col-md-4">
+            {% assign loopindex = forloop.index | modulo: 2 %}
+            {% if loopindex == 0 %}
+            <li style="clear:both"></li>
+            {% endif %}
             <div class="thumbnail">
             <img class="project-img" href="{{ item.url }}" src={{item.image}} alt="...">
             <div class="project-caption">
