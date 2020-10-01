@@ -230,10 +230,10 @@ projects:
       - name: "CODE"
         url: "https://github.com/bgereke/ther_inside_airbnb"
   - name: "candlelight image search"
-    description: "In progress. A chrome extension to perform cropping and reverse image search in the browser."
+    description: "In progress. A chrome extension to perform cropping and reverse image search in the browser similar to Pinterest's "Flashlight" feature."
     image: "img/projects/candlelight.png"
     url: "https://github.com/bgereke/candlelight_image_search"
-    skills: "JavaScript | Vue.js | html | css | chrome extension | Bing Visual Search API | Google Cloud Vision API"
+    skills: "JavaScript | Vue.js | html | css | chrome extension | Bing Visual Search API | Google Cloud Vision API | Python | FastAPI | PyTorch | convolutional neural networks (image embedding) | resnet-50 | resnest-50 | efficient-net | faiss (approximate nearest nighbors) | docker | kubernetes | kubeflow pipelines | KFServing"
     column: "1"
     buttons:
       - name: "CODE"
