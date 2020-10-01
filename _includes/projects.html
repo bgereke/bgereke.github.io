@@ -7,7 +7,7 @@
         <div class="row">
             {% assign index = 0 %}
             {% for item in site.projects %}
-            {% increment index %}
+            {% assign index = { index | plus: 1 } %}
             {% if index == 4 %}
                 {% assign index = 1 %}
             {% endif %}
