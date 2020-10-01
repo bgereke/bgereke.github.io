@@ -201,6 +201,7 @@ projects:
     image: "img/projects/robot.png"
     url: "https://github.com/bgereke/bgereke.github.io"
     skills: "skill1, skill2, skill3..."
+    column: 1;
     buttons:
       - name: "CODE"
         url: "https://github.com/bgereke/ReachMaster"
@@ -215,6 +216,7 @@ projects:
     image: "img/projects/labtocat.png"
     url: "https://github.com/bgereke/bgereke.github.io"
     skills: "skill1, skill2, skill3..."
+    column: 2;
     buttons:
       - name: "CODE"
         url: "https://github.com/bgereke/bgereke.github.io"
@@ -223,6 +225,7 @@ projects:
     image: "img/projects/jetpacktocat.png"
     url: "https://github.com/bgereke/bgereke.github.io"
     skills: "skill1, skill2, skill3..."
+    column: 3;
     buttons:
       - name: "BLOG"
         url: "https://github.com/bgereke/bgereke.github.io"
@@ -233,6 +236,7 @@ projects:
     image: "img/projects/labtocat.png"
     url: "https://github.com/bgereke/bgereke.github.io"
     skills: "skill1, skill2, skill3..."
+    column: 1;
     buttons:
       - name: "CODE"
         url: "https://github.com/bgereke/bgereke.github.io"
@@ -241,6 +245,7 @@ projects:
     image: "img/projects/jetpacktocat.png"
     url: "https://github.com/bgereke/bgereke.github.io"
     skills: "skill1, skill2, skill3..."
+    column: 2;
     buttons:
       - name: "BLOG"
         url: "https://github.com/bgereke/bgereke.github.io"
@@ -251,6 +256,7 @@ projects:
     image: "img/projects/labtocat.png"
     url: "https://github.com/bgereke/bgereke.github.io"
     skills: "skill1, skill2, skill3..."
+    column: 3;
     buttons:
       - name: "CODE"
         url: "https://github.com/bgereke/bgereke.github.io"

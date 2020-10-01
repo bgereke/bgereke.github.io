@@ -4,27 +4,74 @@
         <div class="col-md-10 col-md-offset-1">
             {{ page.content | markdownify }}
         </div>
-        <div class="row">
-            {% for item in site.projects %}
-            {% assign indexmodtwo = forloop.index | modulo: 2 %}
-            {% assign indexmodthree = forloop.index | modulo: 3 %}
+        <div class="row">            
             <div class="col-lg-4">
-                {% if indexmodtwo == 0 %}
-                <div class="box"><img class="project-img" src="img/projects/robot.png"></div>
+                {% for item in site.projects %}
+                {% if item.column == 1 %}
+                <div class="thumbnail">
+                <img class="project-img" href="{{ item.url }}" src={{item.image}} alt="...">
+                <div class="project-caption">
+                <h4 target="_blank" class="title-link" href="{{ item.url }}">{{ item.name }}</h4>
+                <p class=project-description>{{ item.description }}</p>
+                <p>
+                {% for button in item.buttons %}
+                {% if button.name == "POSTER" or button.name == "VIDEO" %}
+                <a target="_blank" href="{{ site.baseurl }}/{{ button.url }}" class="btn" role="button">{{ button.name }}</a>
+                {% else %}
+                <a target="_blank" href="{{ button.url }}" class="btn" role="button">{{ button.name }}</a>
                 {% endif %}
+                {% endfor %}
+                </p>
+                </div>
+                </div>
+                {% endif %}
+                {% endfor %}
             </div>
             <div class="col-lg-4">
-                {% if indexmodthree == 0 %}
-                <div class="box"><img class="project-img" src="img/projects/labtocat.png"></div>
+                {% for item in site.projects %}
+                {% if item.column == 2 %}
+                <div class="thumbnail">
+                <img class="project-img" href="{{ item.url }}" src={{item.image}} alt="...">
+                <div class="project-caption">
+                <h4 target="_blank" class="title-link" href="{{ item.url }}">{{ item.name }}</h4>
+                <p class=project-description>{{ item.description }}</p>
+                <p>
+                {% for button in item.buttons %}
+                {% if button.name == "POSTER" or button.name == "VIDEO" %}
+                <a target="_blank" href="{{ site.baseurl }}/{{ button.url }}" class="btn" role="button">{{ button.name }}</a>
+                {% else %}
+                <a target="_blank" href="{{ button.url }}" class="btn" role="button">{{ button.name }}</a>
                 {% endif %}
+                {% endfor %}
+                </p>
+                </div>
+                </div>
+                {% endif %}
+                {% endfor %}
             </div>
             <div class="col-lg-4">
-                {% if indexmodthree != 0 and indexmodtwo != 0 %}
-                <div class="box"><img class="project-img" src="img/projects/jetpacktocat.png"></div>
+                {% for item in site.projects %}
+                {% if item.column == 3 %}
+                <div class="thumbnail">
+                <img class="project-img" href="{{ item.url }}" src={{item.image}} alt="...">
+                <div class="project-caption">
+                <h4 target="_blank" class="title-link" href="{{ item.url }}">{{ item.name }}</h4>
+                <p class=project-description>{{ item.description }}</p>
+                <p>
+                {% for button in item.buttons %}
+                {% if button.name == "POSTER" or button.name == "VIDEO" %}
+                <a target="_blank" href="{{ site.baseurl }}/{{ button.url }}" class="btn" role="button">{{ button.name }}</a>
+                {% else %}
+                <a target="_blank" href="{{ button.url }}" class="btn" role="button">{{ button.name }}</a>
                 {% endif %}
+                {% endfor %}
+                </p>
+                </div>
+                </div>
+                {% endif %}
+                {% endfor %}
             </div>
-        <div>        
-        {% endfor %}
+        </div>                
     </div>
-    </section>  
+</section>  
     <!-- Skills End -->
