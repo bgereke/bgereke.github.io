@@ -4,8 +4,25 @@
         <div class="col-md-10 col-md-offset-1">
             {{ page.content | markdownify }}
         </div>
+        <div class="row">
+            <div class="col-lg-4">
+              <div class="box"></div>
+              <div class="box"></div>
+              <div class="box"></div>
+            </div>
+            <div class="col-lg-4">
+              <div class="box"></div>
+              <div class="box"></div>
+              <div class="box"></div>
+            </div>
+            <div class="col-lg-4">
+              <div class="box"></div>
+              <div class="box"></div>
+              <div class="box"></div>
+            </div>
+          <div>
         {% for item in site.projects %}
-        <div class="col-sm-6">
+        <div class="col-sm-12">
             <div class="thumbnail">
             <img class="project-img" href="{{ item.url }}" src={{item.image}} alt="...">
             <div class="project-caption">
