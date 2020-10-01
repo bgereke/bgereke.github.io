@@ -249,15 +249,17 @@ projects:
         url: "https://journals.physiology.org/doi/full/10.1152/jn.00472.2017"
       - name: "DISSERTATION"
         url: "dissertation/dissertation.pdf#page=35"
-  - name: "placeholder6"
-    description: "this is the second placeholder project"
-    image: "img/projects/labtocat.png"
-    url: "https://github.com/bgereke/bgereke.github.io"
-    skills: "skill1, skill2, skill3..."
+  - name: "Experience-Dependent Trends in Hippocampal Rhythms"
+    description: "Published paper I collaborated on demonstrating how the spectral content of the hippocampal local field potential is altered in a mouse model of Alzheimer's disease"
+    image: "img/projects/warped_Final.png"
+    url: "https://journals.physiology.org/doi/full/10.1152/jn.00472.2017"
+    skills: "Matlab | R | generalized additive mixed models | dynamic time warping | time series | time-frequency analysis | autodesk inventor (3D CAD) | simultaneous confidence intervals"
     column: "3"
     buttons:
-      - name: "CODE"
-        url: "https://github.com/bgereke/bgereke.github.io"
+      - name: "PAPER"
+        url: "https://onlinelibrary.wiley.com/doi/abs/10.1002/hipo.22697"
+      - name: "DISSERTATION"
+        url: "dissertation/dissertation.pdf#page=73"
 
 ############
 # Timeline #
