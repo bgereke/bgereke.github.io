@@ -212,7 +212,7 @@ projects:
       - name: "VIDEO"
         url: "img/projects/reaching_example.html"
   - name: "This Website"
-    description: "this is the second placeholder project"
+    description: "I built this website to better organize and communicate my work"
     image: "img/projects/website.png"
     url: "https://github.com/bgereke/bgereke.github.io"
     skills: "Github Pages, html, css, jekyll, liquid"
