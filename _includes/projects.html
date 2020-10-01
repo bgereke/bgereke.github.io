@@ -20,23 +20,23 @@
             <div class="box"><img class="project-img" src="img/projects/labtocat.png"></div>
             <div class="box"><img class="project-img" src="img/projects/jetpacktocat.png"></div>
         </div>
-        <div>
-        {% for item in site.projects %}
-        <div class="col-sm-12">
+        <div>        
+        <div class="col-lg-4">
+            {% for item in site.projects %}
             <div class="thumbnail">
             <img class="project-img" href="{{ item.url }}" src={{item.image}} alt="...">
             <div class="project-caption">
-                <h4 target="_blank" class="title-link" href="{{ item.url }}">{{ item.name }}</h4>
-                <p class=project-description>{{ item.description }}</p>
-                <p class="align-bottom">
-                {% for button in item.buttons %}
-                {% if button.name == "POSTER" or button.name == "VIDEO" %}
-                <a target="_blank" href="{{ site.baseurl }}/{{ button.url }}" class="btn" role="button">{{ button.name }}</a>
-                {% else %}
-                <a target="_blank" href="{{ button.url }}" class="btn" role="button">{{ button.name }}</a>
-                {% endif %}
-                {% endfor %}
-                </p>
+            <h4 target="_blank" class="title-link" href="{{ item.url }}">{{ item.name }}</h4>
+            <p class=project-description>{{ item.description }}</p>
+            <p class="align-bottom">
+            {% for button in item.buttons %}
+            {% if button.name == "POSTER" or button.name == "VIDEO" %}
+            <a target="_blank" href="{{ site.baseurl }}/{{ button.url }}" class="btn" role="button">{{ button.name }}</a>
+            {% else %}
+            <a target="_blank" href="{{ button.url }}" class="btn" role="button">{{ button.name }}</a>
+            {% endif %}
+            {% endfor %}
+            </p>
             </div>
             </div>
         </div>
