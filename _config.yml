@@ -222,7 +222,7 @@ projects:
         url: "https://github.com/bgereke/bgereke.github.io"
   - name: "The R Inside Airbnb"
     description: "An exploratory analysis of the inside airbnb dataset that I prepared for the insight data science fellowship coding interview (passed). The project scrapes data from http://insideairbnb.com/get-the-data.html using RCurl, builds a PostgreSQL database, and performs various exploration, modeling and visualization"
-    image: "img/projects/jetpacktocat.png"
+    image: "img/projects/airbnb_feature_importance.png"
     url: "https://github.com/bgereke/ther_inside_airbnb"
     skills: "R | rcurl | PostgreSQL | regex | umap | fourier analysis | time series clustering | xgboost |"
     column: "3"
