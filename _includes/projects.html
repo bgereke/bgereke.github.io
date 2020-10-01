@@ -3,75 +3,73 @@
     <div class="row">
         <div class="col-md-10 col-md-offset-1">
             {{ page.content | markdownify }}
+        </div>           
+        <div class="col-lg-4">
+            {% for item in site.projects %}
+            {% if item.column == "1" %}
+            <div class="thumbnail">
+            <img class="project-img" href="{{ item.url }}" src={{item.image}} alt="...">
+            <div class="project-caption">
+            <h4 target="_blank" class="title-link" href="{{ item.url }}">{{ item.name }}</h4>
+            <p class=project-description>{{ item.description }}</p>
+            <p>
+            {% for button in item.buttons %}
+            {% if button.name == "POSTER" or button.name == "VIDEO" %}
+            <a target="_blank" href="{{ site.baseurl }}/{{ button.url }}" class="btn" role="button">{{ button.name }}</a>
+            {% else %}
+            <a target="_blank" href="{{ button.url }}" class="btn" role="button">{{ button.name }}</a>
+            {% endif %}
+            {% endfor %}
+            </p>
+            </div>
+            </div>
+            {% endif %}
+            {% endfor %}
         </div>
-        <div class="row">            
-            <div class="col-lg-4 col-sm-6">
-                {% for item in site.projects %}
-                {% if item.column == "1" %}
-                <div class="thumbnail">
-                <img class="project-img" href="{{ item.url }}" src={{item.image}} alt="...">
-                <div class="project-caption">
-                <h4 target="_blank" class="title-link" href="{{ item.url }}">{{ item.name }}</h4>
-                <p class=project-description>{{ item.description }}</p>
-                <p>
-                {% for button in item.buttons %}
-                {% if button.name == "POSTER" or button.name == "VIDEO" %}
-                <a target="_blank" href="{{ site.baseurl }}/{{ button.url }}" class="btn" role="button">{{ button.name }}</a>
-                {% else %}
-                <a target="_blank" href="{{ button.url }}" class="btn" role="button">{{ button.name }}</a>
-                {% endif %}
-                {% endfor %}
-                </p>
-                </div>
-                </div>
-                {% endif %}
-                {% endfor %}
+        <div class="col-lg-4">
+            {% for item in site.projects %}
+            {% if item.column == "2" %}
+            <div class="thumbnail">
+            <img class="project-img" href="{{ item.url }}" src={{item.image}} alt="...">
+            <div class="project-caption">
+            <h4 target="_blank" class="title-link" href="{{ item.url }}">{{ item.name }}</h4>
+            <p class=project-description>{{ item.description }}</p>
+            <p>
+            {% for button in item.buttons %}
+            {% if button.name == "POSTER" or button.name == "VIDEO" %}
+            <a target="_blank" href="{{ site.baseurl }}/{{ button.url }}" class="btn" role="button">{{ button.name }}</a>
+            {% else %}
+            <a target="_blank" href="{{ button.url }}" class="btn" role="button">{{ button.name }}</a>
+            {% endif %}
+            {% endfor %}
+            </p>
             </div>
-            <div class="col-lg-4 col-sm-6">
-                {% for item in site.projects %}
-                {% if item.column == "2" %}
-                <div class="thumbnail">
-                <img class="project-img" href="{{ item.url }}" src={{item.image}} alt="...">
-                <div class="project-caption">
-                <h4 target="_blank" class="title-link" href="{{ item.url }}">{{ item.name }}</h4>
-                <p class=project-description>{{ item.description }}</p>
-                <p>
-                {% for button in item.buttons %}
-                {% if button.name == "POSTER" or button.name == "VIDEO" %}
-                <a target="_blank" href="{{ site.baseurl }}/{{ button.url }}" class="btn" role="button">{{ button.name }}</a>
-                {% else %}
-                <a target="_blank" href="{{ button.url }}" class="btn" role="button">{{ button.name }}</a>
-                {% endif %}
-                {% endfor %}
-                </p>
-                </div>
-                </div>
-                {% endif %}
-                {% endfor %}
             </div>
-            <div class="col-lg-4 col-sm-6">
-                {% for item in site.projects %}
-                {% if item.column == "3" %}
-                <div class="thumbnail">
-                <img class="project-img" href="{{ item.url }}" src={{item.image}} alt="...">
-                <div class="project-caption">
-                <h4 target="_blank" class="title-link" href="{{ item.url }}">{{ item.name }}</h4>
-                <p class=project-description>{{ item.description }}</p>
-                <p>
-                {% for button in item.buttons %}
-                {% if button.name == "POSTER" or button.name == "VIDEO" %}
-                <a target="_blank" href="{{ site.baseurl }}/{{ button.url }}" class="btn" role="button">{{ button.name }}</a>
-                {% else %}
-                <a target="_blank" href="{{ button.url }}" class="btn" role="button">{{ button.name }}</a>
-                {% endif %}
-                {% endfor %}
-                </p>
-                </div>
-                </div>
-                {% endif %}
-                {% endfor %}
+            {% endif %}
+            {% endfor %}
+        </div>
+        <div class="col-lg-4">
+            {% for item in site.projects %}
+            {% if item.column == "3" %}
+            <div class="thumbnail">
+            <img class="project-img" href="{{ item.url }}" src={{item.image}} alt="...">
+            <div class="project-caption">
+            <h4 target="_blank" class="title-link" href="{{ item.url }}">{{ item.name }}</h4>
+            <p class=project-description>{{ item.description }}</p>
+            <p>
+            {% for button in item.buttons %}
+            {% if button.name == "POSTER" or button.name == "VIDEO" %}
+            <a target="_blank" href="{{ site.baseurl }}/{{ button.url }}" class="btn" role="button">{{ button.name }}</a>
+            {% else %}
+            <a target="_blank" href="{{ button.url }}" class="btn" role="button">{{ button.name }}</a>
+            {% endif %}
+            {% endfor %}
+            </p>
             </div>
-        </div>                
+            </div>
+            {% endif %}
+            {% endfor %}
+        </div>             
     </div>
 </section>  
     <!-- Skills End -->
