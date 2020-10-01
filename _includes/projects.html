@@ -12,6 +12,7 @@
             <div class="project-caption">
             <h4 target="_blank" class="title-link" href="{{ item.url }}">{{ item.name }}</h4>
             <p class=project-description>{{ item.description }}</p>
+            <p class=project-skills>{{ item.skills }}</p>
             <p>
             {% for button in item.buttons %}
             {% if button.name == "POSTER" or button.name == "VIDEO" %}
@@ -34,6 +35,7 @@
             <div class="project-caption">
             <h4 target="_blank" class="title-link" href="{{ item.url }}">{{ item.name }}</h4>
             <p class=project-description>{{ item.description }}</p>
+            <p class=project-skills>{{ item.skills }}</p>
             <p>
             {% for button in item.buttons %}
             {% if button.name == "POSTER" or button.name == "VIDEO" %}
@@ -56,6 +58,7 @@
             <div class="project-caption">
             <h4 target="_blank" class="title-link" href="{{ item.url }}">{{ item.name }}</h4>
             <p class=project-description>{{ item.description }}</p>
+            <p class=project-skills>{{ item.skills }}</p>
             <p>
             {% for button in item.buttons %}
             {% if button.name == "POSTER" or button.name == "VIDEO" %}

@@ -197,7 +197,7 @@ skills:
 
 projects:
   - name: "ReachMaster"
-    description: "A pneumatically-actuated robotic system for complex rodent reaching tasks I developed at Berkeley Lab. It tooks a really long time which is why this paragraph is quite a bit longer than all the other ones."
+    description: "A pneumatically-actuated robotic system for complex rodent reaching tasks I developed at Berkeley Lab"
     image: "img/projects/robot.png"
     url: "https://github.com/bgereke/bgereke.github.io"
     skills: "skill1, skill2, skill3..."
