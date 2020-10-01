@@ -215,7 +215,7 @@ projects:
     description: "I built this website to better organize and communicate my work, and to get some light exposure to frontend web dev"
     image: "img/projects/website.png"
     url: "https://github.com/bgereke/bgereke.github.io"
-    skills: "Github Pages, html, css, jekyll, liquid"
+    skills: "Github Pages | html | css | jekyll | liquid"
     column: "2"
     buttons:
       - name: "CODE"
