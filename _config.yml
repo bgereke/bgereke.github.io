@@ -247,6 +247,8 @@ projects:
     buttons:
       - name: "PAPER"
         url: "https://journals.physiology.org/doi/full/10.1152/jn.00472.2017"
+      - name: "DISSERTATION"
+        url: "dissertation/dissertation.pdf#page=35"
   - name: "placeholder6"
     description: "this is the second placeholder project"
     image: "img/projects/labtocat.png"

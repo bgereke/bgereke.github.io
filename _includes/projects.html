@@ -42,7 +42,7 @@
             </div>
             <p>
             {% for button in item.buttons %}
-            {% if button.name == "POSTER" or button.name == "VIDEO" %}
+            {% if button.name == "POSTER" or button.name == "VIDEO" or button.name == "DISSERTATION"%}
             <a target="_blank" href="{{ site.baseurl }}/{{ button.url }}" class="btn" role="button">{{ button.name }}</a>
             {% else %}
             <a target="_blank" href="{{ button.url }}" class="btn" role="button">{{ button.name }}</a>
