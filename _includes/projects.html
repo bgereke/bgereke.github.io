@@ -7,7 +7,7 @@
         <div class="row">            
             <div class="col-lg-4">
                 {% for item in site.projects %}
-                {% if item.column == 1 %}
+                {% if item.column == "1" %}
                 <div class="thumbnail">
                 <img class="project-img" href="{{ item.url }}" src={{item.image}} alt="...">
                 <div class="project-caption">
@@ -29,7 +29,7 @@
             </div>
             <div class="col-lg-4">
                 {% for item in site.projects %}
-                {% if item.column == 2 %}
+                {% if item.column == "2" %}
                 <div class="thumbnail">
                 <img class="project-img" href="{{ item.url }}" src={{item.image}} alt="...">
                 <div class="project-caption">
@@ -51,7 +51,7 @@
             </div>
             <div class="col-lg-4">
                 {% for item in site.projects %}
-                {% if item.column == 3 %}
+                {% if item.column == "3" %}
                 <div class="thumbnail">
                 <img class="project-img" href="{{ item.url }}" src={{item.image}} alt="...">
                 <div class="project-caption">
