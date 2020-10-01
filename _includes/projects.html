@@ -28,7 +28,7 @@
             <div class="project-caption">
             <h4 target="_blank" class="title-link" href="{{ item.url }}">{{ item.name }}</h4>
             <p class=project-description>{{ item.description }}</p>
-            <p class="align-bottom">
+            <p>
             {% for button in item.buttons %}
             {% if button.name == "POSTER" or button.name == "VIDEO" %}
             <a target="_blank" href="{{ site.baseurl }}/{{ button.url }}" class="btn" role="button">{{ button.name }}</a>
