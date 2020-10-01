@@ -5,11 +5,14 @@
             {{ page.content | markdownify }}
         </div>
         <div class="row">
+            {% assign index = 0 %}
             {% for item in site.projects %}
-            {% assign indexmodtwo = forloop.index | modulo: 2 %}
-            {% assign indexmodthree = forloop.index | modulo: 3 %}
+            {% increment index %}
+            {% if index == 4 %}
+                {% assign index = 1 %}
+            {% endif %}
             <div class="col-lg-4">
-                {% if indexmodthree != 0 and indexmodtwo != 0 %}
+                {% if index == 1 %}
                 <div class="thumbnail">
                 <img class="project-img" href="{{ item.url }}" src={{item.image}} alt="...">
                 <div class="project-caption">
@@ -29,7 +32,7 @@
                 {% endif %}
             </div>
             <div class="col-lg-4">
-                {% if indexmodthree == 0 %}
+                {% if index == 2 %}
                 <div class="thumbnail">
                 <img class="project-img" href="{{ item.url }}" src={{item.image}} alt="...">
                 <div class="project-caption">
@@ -49,7 +52,7 @@
                 {% endif %}
             </div>       
             <div class="col-lg-4">
-                {% if indexmodtwo == 0 %}
+                {% if index == 3 %}
                 <div class="thumbnail">
                 <img class="project-img" href="{{ item.url }}" src={{item.image}} alt="...">
                 <div class="project-caption">
