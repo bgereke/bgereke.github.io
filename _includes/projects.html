@@ -7,6 +7,7 @@
         <div class="row">
             {% for item in site.projects %}
             {% assign indexmodthree = forloop.index | modulo: 3 %}
+            <h>{indexmodthree}</h>
             <div class="col-lg-4">
                 {% if indexmodthree == 1 %}
                 <div class="thumbnail">
