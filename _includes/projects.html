@@ -7,64 +7,64 @@
         <div class="row">
             {% for item in site.projects %}
             {% assign indexmodthree = forloop.index | modulo: 3 %}
-            <h>{indexmodthree}</h>
+            <h>{{indexmodthree}}</h>
             <div class="col-lg-4">
                 {% if indexmodthree == 1 %}
                 <div class="thumbnail">
-                <img class="project-img" href="{{ item.url }}" src={{item.image}} alt="...">
-                <div class="project-caption">
-                <h4 target="_blank" class="title-link" href="{{ item.url }}">{{ item.name }}</h4>
-                <p class=project-description>{{ item.description }}</p>
-                <p>
-                {% for button in item.buttons %}
-                {% if button.name == "POSTER" or button.name == "VIDEO" %}
-                <a target="_blank" href="{{ site.baseurl }}/{{ button.url }}" class="btn" role="button">{{ button.name }}</a>
-                {% else %}
-                <a target="_blank" href="{{ button.url }}" class="btn" role="button">{{ button.name }}</a>
-                {% endif %}
-                {% endfor %}
-                </p>
-                </div>
+                    <img class="project-img" href="{{ item.url }}" src={{item.image}} alt="...">
+                    <div class="project-caption">
+                        <h4 target="_blank" class="title-link" href="{{ item.url }}">{{ item.name }}</h4>
+                        <p class=project-description>{{ item.description }}</p>
+                        <p>
+                        {% for button in item.buttons %}
+                        {% if button.name == "POSTER" or button.name == "VIDEO" %}
+                        <a target="_blank" href="{{ site.baseurl }}/{{ button.url }}" class="btn" role="button">{{ button.name }}</a>
+                        {% else %}
+                        <a target="_blank" href="{{ button.url }}" class="btn" role="button">{{ button.name }}</a>
+                        {% endif %}
+                        {% endfor %}
+                        </p>
+                    </div>
                 </div>
                 {% endif %}
             </div>
             <div class="col-lg-4">
                 {% if indexmodthree == 2 %}
                 <div class="thumbnail">
-                <img class="project-img" href="{{ item.url }}" src={{item.image}} alt="...">
-                <div class="project-caption">
-                <h4 target="_blank" class="title-link" href="{{ item.url }}">{{ item.name }}</h4>
-                <p class=project-description>{{ item.description }}</p>
-                <p>
-                {% for button in item.buttons %}
-                {% if button.name == "POSTER" or button.name == "VIDEO" %}
-                <a target="_blank" href="{{ site.baseurl }}/{{ button.url }}" class="btn" role="button">{{ button.name }}</a>
-                {% else %}
-                <a target="_blank" href="{{ button.url }}" class="btn" role="button">{{ button.name }}</a>
-                {% endif %}
-                {% endfor %}
-                </p>
-                </div>
+                    <img class="project-img" href="{{ item.url }}" src={{item.image}} alt="...">
+                    <div class="project-caption">
+                        <h4 target="_blank" class="title-link" href="{{ item.url }}">{{ item.name }}</h4>
+                        <p class=project-description>{{ item.description }}</p>
+                        <p>
+                        {% for button in item.buttons %}
+                        {% if button.name == "POSTER" or button.name == "VIDEO" %}
+                        <a target="_blank" href="{{ site.baseurl }}/{{ button.url }}" class="btn" role="button">{{ button.name }}</a>
+                        {% else %}
+                        <a target="_blank" href="{{ button.url }}" class="btn" role="button">{{ button.name }}</a>
+                        {% endif %}
+                        {% endfor %}
+                        </p>
+                    </div>
                 </div>
                 {% endif %}
             </div>    
             <div class="col-lg-4">
                 {% if indexmodthree == 0 %}
                 <div class="thumbnail">
-                <img class="project-img" href="{{ item.url }}" src={{item.image}} alt="...">
-                <div class="project-caption">
-                <h4 target="_blank" class="title-link" href="{{ item.url }}">{{ item.name }}</h4>
-                <p class=project-description>{{ item.description }}</p>
-                <p>
-                {% for button in item.buttons %}
-                {% if button.name == "POSTER" or button.name == "VIDEO" %}
-                <a target="_blank" href="{{ site.baseurl }}/{{ button.url }}" class="btn" role="button">{{ button.name }}</a>
-                {% else %}
-                <a target="_blank" href="{{ button.url }}" class="btn" role="button">{{ button.name }}</a>
-                {% endif %}
-                {% endfor %}
-                </p>
-                </div>
+                    <img class="project-img" href="{{ item.url }}" src={{item.image}} alt="...">
+                    <div class="project-caption">
+                        <h4 target="_blank" class="title-link" href="{{ item.url }}">{{ item.name }}</h4>
+                        <p class=project-description>{{ item.description }}</p>
+                        <p>
+                        {% for button in item.buttons %}
+                        {% if button.name == "POSTER" or button.name == "VIDEO" %}
+                        <a target="_blank" href="{{ site.baseurl }}/{{ button.url }}" class="btn" role="button">{{ button.name }}</a>
+                        {% else %}
+                        <a target="_blank" href="{{ button.url }}" class="btn" role="button">{{ button.name }}</a>
+                        {% endif %}
+                        {% endfor %}
+                        </p>
+                    </div>
                 </div>
                 {% endif %}
             </div>            
