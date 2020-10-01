@@ -262,7 +262,7 @@ projects:
         url: "dissertation/dissertation.pdf#page=73"
   - name: "Time-frequency analysis of brain rhythms w/ generalized additive models"
     description: "An introduction to the basic principles of time-frequency analysis, some issues to consider when doing inference on such represenations, and some proposed solutions"
-    image: "img/projects/Figure_4,6.png"
+    image: "img/projects/Figure_4.6.png"
     url: "https://journals.physiology.org/doi/full/10.1152/jn.00472.2017"
     skills: "Matlab | R | generalized additive mixed models | time series | time-frequency analysis | continuous wavelet transform(s) | point processes | simultaneous confidence intervals"
     column: "2"
