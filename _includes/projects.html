@@ -8,7 +8,7 @@
             {% for item in site.projects %}
             {% assign indexmodthree = forloop.index | modulo: 3 %}
             <div class="col-lg-4">
-                {% if indexmodthree == 2 %}
+                {% if indexmodthree == 1 %}
                 <div class="thumbnail">
                 <img class="project-img" href="{{ item.url }}" src={{item.image}} alt="...">
                 <div class="project-caption">
@@ -28,7 +28,7 @@
                 {% endif %}
             </div>
             <div class="col-lg-4">
-                {% if indexmodthree == 1 %}
+                {% if indexmodthree == 2 %}
                 <div class="thumbnail">
                 <img class="project-img" href="{{ item.url }}" src={{item.image}} alt="...">
                 <div class="project-caption">
