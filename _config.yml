@@ -239,10 +239,10 @@ projects:
       - name: "CODE"
         url: "https://github.com/bgereke/candlelight_image_search"
   - name: "Experience-Dependent Trends in Hippocampal Rhythms"
-    description: "Published paper demonstrating how the spectral content of the mouse hippompal local field potential depends on animal behavior and accumulated experience"
+    description: "Published paper demonstrating how the spectral content of the mouse hippocampal local field potential depends on animal behavior and accumulated experience"
     image: "img/projects/experience_dep_trends.png"
     url: "https://journals.physiology.org/doi/full/10.1152/jn.00472.2017"
-    skills: "Matlab, R, slurm, parallel processing, generalized additive mixed models, time series, time-frequency analysis, autodesk inventor (3D CAD), cross-validation, cross-spectral analysis, dimensionality reduction, simultaneous confidence intervals"
+    skills: "Matlab | R | slurm | parallel processing | generalized additive mixed models | time series | time-frequency analysis | autodesk inventor (3D CAD) | cross-validation | cross-spectral analysis | dimensionality reduction | simultaneous confidence intervals"
     column: "2"
     buttons:
       - name: "PAPER"
