@@ -150,7 +150,7 @@ skills:
         text: <iframe src="https://giphy.com/embed/de5bARu0SsXiU" width="480" height="253" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
       - name: "Arduino"
         level: "3"
-        percent: "80"
+        percent: "60"
         text: "~3 yrs, analog/digital IO, PWM, Serial Communication, Debugging, Optimization, etc."
   - topic: "Machine Learning"
     subtopic:
