@@ -97,12 +97,12 @@ web-app-mode: True
 
 # Icons for Web App mode
 
-icon-36p: "img/web-app/cwt_logo.png"
-icon-48p: "img/web-app/cwt_logo.png"
-icon-72p: "img/web-app/cwt_logo.png"
-icon-96p: "img/web-app/cwt_logo.png"
-icon-144p: "img/web-app/cwt_logo.png"
-icon-192p: "img/web-app/cwt_logo.png"
+icon-36p: "img/cwt_logo.png"
+icon-48p: "img/cwt_logo.png"
+icon-72p: "img/cwt_logo.png"
+icon-96p: "img/cwt_logo.png"
+icon-144p: "img/cwt_logo.png"
+icon-192p: "img/cwt_logo.png"
 
 ########
 # Blog #
