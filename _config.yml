@@ -139,11 +139,11 @@ skills:
       - name: "Python"
         level: "3"
         percent: "60"
-        text: "~5 yrs"
+        text: "~5 yrs |  numpy | pandas | scikit-learn | statsmodels | scipy | pyspark | opencv | tkinter | flask | multiprocessing | sphinx | scrapy | unittest | pytest | fastapi"
       - name: "R"
         level: "4"
         percent: "80"
-        text: "~5 yrs"
+        text: "~5 yrs | base + tidyverse | R Markdown | DBI | mgcv | glmnet | rgl"
       - name: "Matlab"
         level: "4"
         percent: "80"
@@ -161,7 +161,7 @@ skills:
       - name: "Unsupervised"
         level: "4"
         percent: "80"
-        text: "PCA | fPCA | UMAP | autoencoders | ICA | CCA | factor analysis | NMF | time series mode decomposition algorithms | time-frequency analysis | centroid/hierarchical clustering algorithms"
+        text: "PCA | fPCA | UMAP | autoencoders | ICA | CCA | factor analysis | NMF | time series mode decomposition algorithms | time-frequency analysis | centroid, density, hierarchical clustering algorithms"
       - name: "Computer Vision"
         level: "2"
         percent: "40"
@@ -193,7 +193,7 @@ skills:
       - name: "Statistics"
         level: "3"
         percent: "60"
-        text: "descriptive | univariate | multivariate | parametric | nonparametric | hypothesis testing | bootstrapping | jackknife | permutation methods | multiple comparisons (e.g., simultaneous confidence intervals, etc.) | cross-validation methods (e.g., AIC, BIC, LOO, etc.) | model checking (e.g., goodness of fit, outliers, independence, etc.)" 
+        text: "descriptive | univariate, multivariate, parametric, nonparametric hypothesis testing | bootstrapping, jackknife, permutation methods | multiple comparisons (e.g., simultaneous confidence intervals, etc.) | cross-validation methods (e.g., AIC, BIC, LOO, etc.) | model checking (e.g., goodness of fit, outliers, independence, etc.)" 
 
 ############
 # Projects #
