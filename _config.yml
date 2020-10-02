@@ -61,6 +61,7 @@ lines: # You can add HTML Tags in the Text
   - text: "Keep reading to find out."
 
 me-img: "img/profile_pic.jpg"
+img-halo: "img/cwt_logo.png"
 profile-tag: "Machine Learning | Neurosciencing | Dog Fathering"
 
 # To use facebook profile pic comment the previous line and uncomment the following
