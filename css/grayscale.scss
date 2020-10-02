@@ -206,11 +206,12 @@ a {
             position: relative;
             border-radius: 50%;
             margin-bottom: 35px;
+            box-shadow: 10px #000;
         }
         .img-me {            
             position: absolute;
             top: 25%;
-            left:25%;
+            left:50%;
         }
         
     }
