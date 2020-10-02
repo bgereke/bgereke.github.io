@@ -371,10 +371,10 @@ pages_list:
   About: 'about'
   Skills:  'skills'
   Projects: 'projects'
-  Timeline: 'timeline'
   Publications: 'https://pubmed.ncbi.nlm.nih.gov/?term=Brian+Gereke'
   Dissertation: 'dissertation/dissertation.pdf'  
   Resume: 'resume/Gereke_Resume.pdf'
+  CV: 'resume/Gereke_CV.pdf'
   Contact: 'contact'
 
 # Exclusion list from the generated _site
