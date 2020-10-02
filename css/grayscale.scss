@@ -202,19 +202,14 @@ a {
             top: 0;
             left: 0;
           }
+        .img-halo {
+            position: relative;
+        }
         .img-me {
             // margin-bottom: 35px;
-            position: relative;
-            top: 0%;
-            left: 0%;
-            // border: 1px solid #000000;
-        }
-        .img-halo {
             position: absolute;
-            top: 0%;
-            left: 0%;
-            // border: 1px solid #000000;
         }
+        
     }
     @media(min-width:768px) {
         height: 100%;
