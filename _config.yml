@@ -193,7 +193,7 @@ skills:
       - name: "Statistics"
         level: "3"
         percent: "60"
-        text: "descriptive, univariate/multivariate/parametric/nonparametric hypothesis testing, bootstrapping/jackknife/permutation methods, multiple comparisons (e.g., simultaneous confidence intervals, etc.), cross-validation methods (e.g., AIC, BIC, LOO, etc.), model checking (e.g., goodness of fit, outliers, independence, etc.)" 
+        text: "descriptive, univariate, multivariate, parametric, nonparametric, hypothesis testing, bootstrapping, jackknife, permutation methods, multiple comparisons (e.g., simultaneous confidence intervals, etc.), cross-validation methods (e.g., AIC, BIC, LOO, etc.), model checking (e.g., goodness of fit, outliers, independence, etc.)" 
 
 ############
 # Projects #
