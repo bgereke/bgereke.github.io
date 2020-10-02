@@ -189,7 +189,7 @@ skills:
       - name: "Visualization"
         level: "4"
         percent: "80"
-        text: "matplotlib | seaborn | ggplot2 | rgl/opengl | autodesk inventor | adobe illustrator"
+        text: "matplotlib | seaborn | ggplot2 | rgl/opengl | ffmpeg | autodesk inventor | adobe illustrator"
       - name: "Statistics"
         level: "3"
         percent: "60"
