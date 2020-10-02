@@ -41,7 +41,7 @@ favicon: "img/cwt_logo.png"
 
 black-favicon: "img/cwt_logo.png"
 background-img: #"../img/intro-bg.jpg"
-logo:  "img/cwt_logo.png"
+logo:  #"img/cwt_logo.png"
 
 
 
