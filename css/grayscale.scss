@@ -212,8 +212,11 @@ a {
         .img-me {            
             position: absolute;
             width: 75%;
+            height: 75%;
             top: 25%;
             left:50%;
+            border: 7px solid #f1f1f1;
+            border-radius: 50%;
         }
         
     }
