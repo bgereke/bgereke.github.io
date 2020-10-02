@@ -11,12 +11,8 @@
             <h5>&nbsp;</h5>
             <div class=parent>
               <a href="#{{ site.pages_list['About'] }}" class="page-scroll">
-                {% if site.me-img contains "https://" %}
-                  <img class="img-me" src="{{ site.me-img }}" alt="">
-                {% else %}
-                  <img class="img-me" src="{{site.baseurl}}{{ site.me-img }}" alt="">
-                {% endif %}
                 <img class="img-halo" src="{{site.baseurl}}{{ site.img-halo }}" alt="">
+                <img class="img-me" src="{{site.baseurl}}{{ site.me-img }}" alt="">                
               </a>
             </div>
             <h5> {{ site.profile-tag }} </h5>          
