@@ -204,16 +204,16 @@ a {
           }
         .img-halo {
             position: relative;
-            width: 50%;
-            height: auto;
+            width: 200px;
+            height: 200px;
             border-radius: 100%;
             margin-bottom: 35px;
             text-shadow: 10px 0 10px #000;
         }
         .img-me {            
             position: absolute;
-            width: 25%;
-            height: auto;
+            width: 100px;
+            height: 100px;
             top: 25%;
             left:25%;
             border: 7px solid #f1f1f1;
