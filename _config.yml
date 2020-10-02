@@ -253,6 +253,8 @@ projects:
         url: "https://journals.physiology.org/doi/full/10.1152/jn.00472.2017"
       - name: "DISSERTATION"
         url: "dissertation/dissertation.pdf#page=35"
+      - name: "POSTER"
+        url: "img/projects/ACLM_2017.pdf"
   - name: "Experience-Dependent Trends in Hippocampal Rhythms"
     description: "Published paper I collaborated on demonstrating how the spectral content of the hippocampal local field potential is altered in a mouse model of Alzheimer's disease"
     image: "img/projects/warped_Final.png"
