@@ -10,27 +10,30 @@
             <div class="thumbnail">
             <img class="dog-img" src={{item.image}} alt="...">
             <!-- <h4 class="title-link">{{ item.name }}</h4> -->
+            </div>
             {% endif %}
-            {% endfor %}
-        </div>
+            {% endfor %}        
+        </div>  
         <div class="col-lg-4">
             {% for item in site.dogs %}
             {% if item.column == "2" %}
             <div class="thumbnail">
             <img class="dog-img" src={{item.image}} alt="...">
             <!-- <h4 class="title-link">{{ item.name }}</h4> -->
+            </div>
             {% endif %}
-            {% endfor %}
+            {% endfor %}            
         </div>
         <div class="col-lg-4">
             {% for item in site.dogs %}
             {% if item.column == "3" %}
             <div class="thumbnail">
             <img class="dog-img" src={{item.image}} alt="...">
-            <!-- <h4 class="title-link">{{ item.name }}</h4> -->
+            <!-- <h4 class="title-link">{{ item.name }}</h4> -->            
+            </div>      
             {% endif %}
-            {% endfor %}
-        </div>             
+            {% endfor %}       
+        </div>
     </div>
 </section>  
 <!-- Dogs End -->
