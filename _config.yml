@@ -374,7 +374,7 @@ dogs:
   - image: "img/dogs/Photo Sep 13, 5 40 10 PM.jpg"
     column: "3"
   - image: "img/dogs/Photo Sep 15, 4 22 59 PM.jpg"
-    column: "1"
+    column: "2"
   - image: "img/dogs/Photo Sep 21, 5 31 42 PM.jpg"
     column: "2"
   # - image: "img/dogs/Photo Sep 28, 5 37 14 AM.jpg"
