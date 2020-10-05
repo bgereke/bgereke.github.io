@@ -370,8 +370,8 @@ keybase-in-footer: True
 
 pages_list:
   About: 'about'
-  Skills:  'skills'
   Projects: 'projects'
+  Skills:  'skills'  
   Publications: 'https://pubmed.ncbi.nlm.nih.gov/?term=Brian+Gereke'
   Dissertation: 'dissertation/dissertation.pdf'  
   Resume: 'resume/Gereke_Resume.pdf'
