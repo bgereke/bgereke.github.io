@@ -5,22 +5,7 @@
 
 url: "https://bgereke.github.io/"
 
-# If you're hosting your site at a Project repository on GitHub pages
-# (https://yourusername.github.io/repository-name)
-# and NOT your user repository (https://yourusername.github.io)
-# then add in the baseurl here, like this: "/repository-name"
-#
-# NB! Without this *nothing* will work, because it's used in every path :)
-
 baseurl: "/"
-
-# Google tracking id
-
-google-tracking-id: ""
-
-# Forces https everywhere in your website, except when you serve it locally
-# If you are not hosted on Github Pages, and your host doesn't support https
-# then you should disable it
 
 force-https: True
 
@@ -43,8 +28,6 @@ black-favicon: #"img/cwt_logo.png"
 background-img: #"../img/intro-bg.jpg"
 logo:  #"img/cwt_logo.png"
 
-
-
 ##############################
 # Dynamic Text on the Header #
 ##############################
@@ -63,26 +46,6 @@ lines: # You can add HTML Tags in the Text
 me-img: "img/profile_pic.jpg"
 img-halo: "img/cwt_logo.png"
 profile-tag: "Machine Learning | Neurosciencing | Dog Fathering"
-
-# To use facebook profile pic comment the previous line and uncomment the following
-# line, and replace 'user_id' with your facebook user id.
-# Facebook user id can be found by clicking on your profile pic and the large number
-# in the end of the url just before '&type' is your user id.
-# Note: fbid is not the same as user id and user id only contains numbers
-
-# me-img: "https://graph.facebook.com/user_id/picture?type=large&width=500&height=500"
-
-# To use github profile pic uncomment the following line and replace 'user_name'
-# with your github user name.
-
-# me-img: "https://github.com/user_name.png?size=500"
-
-# To use gravatar profile pic uncomment the following line and replace 'email_hash'
-# with your gravatar profile email hash.
-# You can create the email hash by using an online tool like 'http://www.md5hashgenerator.com/'
-# just enter your email and it will generate the hash.
-
-# me-img: "https://www.gravatar.com/avatar/email_hash?s=500"
 
 ##############################
 # Color the browser elements #
@@ -105,96 +68,20 @@ icon-96p: "img/cwt_logo.png"
 icon-144p: "img/cwt_logo.png"
 icon-192p: "img/cwt_logo.png"
 
-########
-# Blog #
-########
+#########
+# Pages #
+#########
 
-enable-gesture-navigation: True
-
-post-preview-words: 96
-
-paginate: 5
-
-email-share: False
-fb-share: False
-twitter-share: False
-linkedin-share: True
-reddit-share: False
-google-plus-share: False
-tumblr-share: False
-pinterest-share: False
-pocket-share: False
-vkontakte-share: False
-
-disqus-shortname: "personal-jekyll-theme"
-
-syntax-highlight: True
-
-##########
-# Skills #
-##########
-
-skills:
-  - topic: "Languages"
-    subtopic: 
-      - name: "Python"
-        level: "3"
-        percent: "60"
-        text: "~5 yrs | OOP | FP | Modules | PEP8 | numpy | pandas | scikit-learn | statsmodels | scipy | pyspark | opencv | faiss | tkinter | flask | multiprocessing | sphinx | scrapy | unittest | pytest | fastapi"
-      - name: "R"
-        level: "4"
-        percent: "80"
-        text: "~5 yrs | OOP | FP | base + tidyverse | R Markdown | DBI | mgcv | glmnet | rgl"
-      - name: "Matlab"
-        level: "4"
-        percent: "80"
-        text: <iframe src="https://giphy.com/embed/de5bARu0SsXiU" width="480" height="253" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
-      - name: "Arduino"
-        level: "3"
-        percent: "60"
-        text: "~3 yrs | analog/digital IO | PWM | Serial Communication | Debugging | Optimization"
-  - topic: "Machine Learning"
-    subtopic:
-      - name: "Supervised"
-        level: "4"
-        percent: "80"
-        text: "GLM(M)s | GAM(M)s | regularization (e.g., ridge, lasso, etc.) | point processes | SVMs | random forests | GBTs | NNs"
-      - name: "Unsupervised"
-        level: "4"
-        percent: "80"
-        text: "PCA | fPCA | UMAP | autoencoders | ICA | CCA | factor analysis | NMF | time series mode decomposition algorithms | time-frequency analysis | centroid, density, hierarchical clustering algorithms | approximate nearest neighbors"
-      - name: "Computer Vision"
-        level: "2"
-        percent: "40"
-        text: "OpenCV | ffmpeg | direct linear transformation | DeepLabCut | CNNs | some PyTorch | some TensorFlow" 
-  - topic: "Software Engineering"
-    subtopic:
-      - name: "Frontend"
-        level: "2"
-        percent: "40"
-        text: "HTML | CSS | JavaScript | Vue.js | Chrome Extensions | Github Pages"
-      - name: "Databases"
-        level: "2"
-        percent: "40"
-        text: "PostreSQL"
-      - name: "APIs"
-        level: "2"
-        percent: "40"
-        text: "Flask | FastAPI | Axios | Fetch | Requests | Postman" 
-  - topic: "Data Science"
-    subtopic:
-      - name: "Wrangling & Preprocessing"
-        level: "4"
-        percent: "80"
-        text: "Pandas | Numpy | dplyr | Spark SQL | web scraping | regex | interpolation | filtering | smoothing | feature engineering"
-      - name: "Visualization"
-        level: "4"
-        percent: "80"
-        text: "matplotlib | seaborn | ggplot2 | rgl/opengl | ffmpeg | autodesk inventor | adobe illustrator"
-      - name: "Statistics"
-        level: "3"
-        percent: "60"
-        text: "descriptive | univariate, multivariate, parametric, nonparametric hypothesis testing | bootstrapping, jackknife, permutation methods | multiple comparisons (e.g., simultaneous confidence intervals, etc.) | cross-validation methods (e.g., AIC, BIC, LOO, etc.) | model checking (e.g., goodness of fit, outliers, independence, etc.)" 
+pages_list:
+  About: 'about'
+  Projects: 'projects'
+  Skills:  'skills'
+  Dogs: 'dogs'  
+  Publications: 'https://pubmed.ncbi.nlm.nih.gov/?term=Brian+Gereke'
+  Dissertation: 'dissertation/dissertation.pdf'  
+  Resume: 'resume/Gereke_Resume.pdf'
+  CV: 'resume/Gereke_CV.pdf'
+  Contact: 'contact'
 
 ############
 # Projects #
@@ -277,6 +164,222 @@ projects:
       - name: "CODE"
         url: "https://github.com/bgereke/ther_inside_airbnb"
 
+##########
+# Skills #
+##########
+
+skills:
+  - topic: "Languages"
+    subtopic: 
+      - name: "Python"
+        level: "3"
+        percent: "60"
+        text: "~5 yrs | OOP | FP | Modules | PEP8 | numpy | pandas | scikit-learn | statsmodels | scipy | pyspark | opencv | faiss | tkinter | flask | multiprocessing | sphinx | scrapy | unittest | pytest | fastapi"
+      - name: "R"
+        level: "4"
+        percent: "80"
+        text: "~5 yrs | OOP | FP | base + tidyverse | R Markdown | DBI | mgcv | glmnet | rgl"
+      - name: "Matlab"
+        level: "4"
+        percent: "80"
+        text: <iframe src="https://giphy.com/embed/de5bARu0SsXiU" width="480" height="253" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+      - name: "Arduino"
+        level: "3"
+        percent: "60"
+        text: "~3 yrs | analog/digital IO | PWM | Serial Communication | Debugging | Optimization"
+  - topic: "Machine Learning"
+    subtopic:
+      - name: "Supervised"
+        level: "4"
+        percent: "80"
+        text: "GLM(M)s | GAM(M)s | regularization (e.g., ridge, lasso, etc.) | point processes | SVMs | random forests | GBTs | NNs"
+      - name: "Unsupervised"
+        level: "4"
+        percent: "80"
+        text: "PCA | fPCA | UMAP | autoencoders | ICA | CCA | factor analysis | NMF | time series mode decomposition algorithms | time-frequency analysis | centroid, density, hierarchical clustering algorithms | approximate nearest neighbors"
+      - name: "Computer Vision"
+        level: "2"
+        percent: "40"
+        text: "OpenCV | ffmpeg | direct linear transformation | DeepLabCut | CNNs | some PyTorch | some TensorFlow" 
+  - topic: "Software Engineering"
+    subtopic:
+      - name: "Frontend"
+        level: "2"
+        percent: "40"
+        text: "HTML | CSS | JavaScript | Vue.js | Chrome Extensions | Github Pages"
+      - name: "Databases"
+        level: "2"
+        percent: "40"
+        text: "PostreSQL"
+      - name: "APIs"
+        level: "2"
+        percent: "40"
+        text: "Flask | FastAPI | Axios | Fetch | Requests | Postman" 
+  - topic: "Data Science"
+    subtopic:
+      - name: "Wrangling & Preprocessing"
+        level: "4"
+        percent: "80"
+        text: "Pandas | Numpy | dplyr | Spark SQL | web scraping | regex | interpolation | filtering | smoothing | feature engineering"
+      - name: "Visualization"
+        level: "4"
+        percent: "80"
+        text: "matplotlib | seaborn | ggplot2 | rgl/opengl | ffmpeg | autodesk inventor | adobe illustrator"
+      - name: "Statistics"
+        level: "3"
+        percent: "60"
+        text: "descriptive | univariate, multivariate, parametric, nonparametric hypothesis testing | bootstrapping, jackknife, permutation methods | multiple comparisons (e.g., simultaneous confidence intervals, etc.) | cross-validation methods (e.g., AIC, BIC, LOO, etc.) | model checking (e.g., goodness of fit, outliers, independence, etc.)" 
+
+########
+# Dogs #
+########
+
+dogs:
+  - image: "img/dogs/Photo Apr 03, 5 49 07 PM.jpg"
+    column: "1"
+  - image: "img/dogs/Photo Apr 05, 9 09 32 AM.jpg"
+    column: "2"
+  - image: "img/dogs/Photo Apr 07, 4 22 49 PM.jpg"
+    column: "3"
+  - image: "img/dogs/Photo Apr 12, 8 54 09 AM.jpg"
+    column: "1"
+  - image: "img/dogs/Photo Apr 15, 2 34 15 PM.jpg"
+    column: "2"
+  - image: "img/dogs/Photo Apr 16, 10 57 29 AM.jpg"
+    column: "3"
+  - image: "img/dogs/Photo Aug 10, 4 30 42 PM.jpg"
+    column: "1"
+  - image: "img/dogs/Photo Aug 15, 3 12 19 PM.jpg"
+    column: "2"
+  - image: "img/dogs/Photo Aug 18, 10 03 50 AM.jpg"
+    column: "3"
+  - image: "img/dogs/Photo Aug 19, 8 39 16 AM.jpg"
+    column: "1"
+  - image: "img/dogs/Photo Aug 20, 12 34 42 PM.jpg"
+    column: "2"
+  - image: "img/dogs/Photo Aug 22, 6 13 05 PM.jpg"
+    column: "3"
+  - image: "img/dogs/Photo Aug 22, 10 04 10 AM.jpg"
+    column: "1"
+  - image: "img/dogs/Photo Aug 29, 7 40 20 AM.jpg"
+    column: "2"
+  - image: "img/dogs/Photo Dec 12, 8 34 18 AM.jpg"
+    column: "3"
+  - image: "img/dogs/Photo Dec 27, 4 33 41 PM.jpg"
+    column: "1"
+  - image: "img/dogs/Photo Dec 28, 6 56 41 PM.jpg"
+    column: "2"
+  - image: "img/dogs/Photo Dec 29, 9 41 14 PM.jpg"
+    column: "3"
+  - image: "img/dogs/Photo Dec 30, 4 35 16 PM.jpg"
+    column: "1"
+  - image: "img/dogs/Photo Feb 03, 2 43 50 PM.jpg"
+    column: "2"
+  - image: "img/dogs/Photo Feb 05, 12 31 52 PM.jpg"
+    column: "3"
+  - image: "img/dogs/Photo Feb 17, 8 25 55 AM.jpg"
+    column: "1"
+  - image: "img/dogs/Photo Feb 18, 4 18 16 PM.jpg"
+    column: "2"
+  - image: "img/dogs/Photo Feb 18, 4 18 42 PM.jpg"
+    column: "3"
+  - image: "img/dogs/Photo Feb 18, 4 19 17 PM.jpg"
+    column: "1"
+  - image: "img/dogs/Photo Feb 25, 4 47 21 PM.jpg"
+    column: "2"
+  - image: "img/dogs/Photo Jan 03, 6 17 05 PM.jpg"
+    column: "3"
+  - image: "img/dogs/Photo Jan 08, 12 00 46 PM.jpg"
+    column: "1"
+  - image: "img/dogs/Photo Jan 09, 10 02 04 PM.jpg"
+    column: "2"
+  - image: "img/dogs/Photo Jan 12, 2 00 36 PM.jpg"
+    column: "3"
+  - image: "img/dogs/Photo Jan 20, 4 02 27 PM.jpg"
+    column: "1"
+  - image: "img/dogs/Photo Jan 28, 9 25 26 PM.jpg"
+    column: "2"
+  - image: "img/dogs/Photo Jan 31, 5 39 22 AM.jpg"
+    column: "3"
+  - image: "img/dogs/Photo Jul 10, 10 31 12 PM.jpg"
+    column: "1"
+  - image: "img/dogs/Photo Jul 10, 11 11 38 AM.jpg"
+    column: "2"
+  - image: "img/dogs/Photo Jul 28, 2 08 37 PM.jpg"
+    column: "3"
+  - image: "img/dogs/Photo Jul 30, 8 57 06 AM.jpg"
+    column: "1"
+  - image: "img/dogs/Photo Jul 31, 10 57 38 AM.jpg"
+    column: "2"
+  - image: "img/dogs/Photo Jun 02, 12 59 47 PM.jpg"
+    column: "3"
+  - image: "img/dogs/Photo Jun 13, 12 27 14 PM.jpg"
+    column: "1"
+  - image: "img/dogs/Photo Jun 15, 4 54 09 PM.jpg"
+    column: "2"
+  - image: "img/dogs/Photo Jun 24, 6 13 19 PM.jpg"
+    column: "3"
+  - image: "img/dogs/Photo Jun 28, 6 13 44 PM.jpg"
+    column: "1"
+  - image: "img/dogs/Photo Mar 11, 3 50 16 PM.jpg"
+    column: "2"
+  - image: "img/dogs/Photo Mar 11, 3 52 14 PM.jpg"
+    column: "3"
+  - image: "img/dogs/Photo Mar 24, 1 32 36 PM.jpg"
+    column: "1"
+  - image: "img/dogs/Photo Mar 25, 10 15 01 AM.jpg"
+    column: "2"
+  - image: "img/dogs/Photo Mar 28, 6 39 21 AM.jpg"
+    column: "3"
+  - image: "img/dogs/Photo May 02, 9 28 09 AM.jpg"
+    column: "1"
+  - image: "img/dogs/Photo May 03, 5 59 38 PM.jpg"
+    column: "2"
+  - image: "img/dogs/Photo May 06, 10 31 56 AM.jpg"
+    column: "3"
+  - image: "img/dogs/Photo May 09, 1 26 05 PM.jpg"
+    column: "1"
+  - image: "img/dogs/Photo May 09, 12 42 47 PM.jpg"
+    column: "2"
+  - image: "img/dogs/Photo May 21, 2 11 32 PM.jpg"
+    column: "3"
+  - image: "img/dogs/Photo May 23, 2 50 11 PM.jpg"
+    column: "1"
+  - image: "img/dogs/Photo May 29, 5 34 03 PM.jpg"
+    column: "2"
+  - image: "img/dogs/Photo Nov 24, 1 45 44 PM.jpg"
+    column: "3"
+  - image: "img/dogs/Photo Nov 30, 8 09 36 PM.jpg"
+    column: "1"
+  - image: "img/dogs/Photo Nov 30, 9 26 14 AM.jpg"
+    column: "2"
+  - image: "img/dogs/Photo Oct 04, 1 56 31 PM.jpg"
+    column: "3"
+  - image: "img/dogs/Photo Oct 18, 8 19 41 PM.jpg"
+    column: "1"
+  - image: "img/dogs/Photo Oct 31, 9 54 50 PM.jpg"
+    column: "2"
+  - image: "img/dogs/Photo Sep 02, 1 13 44 PM.jpg"
+    column: "3"
+  - image: "img/dogs/Photo Sep 02, 2 19 36 PM.jpg"
+    column: "1"
+  - image: "img/dogs/Photo Sep 02, 10 46 02 AM.jpg"
+    column: "2"
+  - image: "img/dogs/Photo Sep 02, 10 46 05 AM.jpg"
+    column: "3"
+  - image: "img/dogs/Photo Sep 08, 10 46 17 AM.jpg"
+    column: "1"
+  - image: "img/dogs/Photo Sep 08, 10 49 16 AM.jpg"
+    column: "2"
+  - image: "img/dogs/Photo Sep 13, 5 40 10 PM.jpg"
+    column: "3"
+  - image: "img/dogs/Photo Sep 15, 4 22 59 PM.jpg"
+    column: "1"
+  - image: "img/dogs/Photo Sep 21, 5 31 42 PM.jpg"
+    column: "2"
+  - image: "img/dogs/Photo Sep 28, 5 37 14 AM.jpg"
+    column: "3"
+
 ############
 # Timeline #
 ############
@@ -326,17 +429,6 @@ email: "bgereke@utexas.edu"
 # Set a url pointing to your publish PGP Public Key here, and it will appear in the Contact section
 pgp: False
 
-################
-# Author Blurb #
-################
-
-# The author blurb goes underneath blog posts.
-# This works best when your author blurb image has a transparent background, or matches your site background color.
-
-# if the author_blurb is not set, then this feature is skipped
-author_blurb: "John Smith is an awesome person. He lives in Flatland, where he works on two-dimensional engineering projects. In his spare time, John likes to eat cotton candy."
-author_blurb_image: "img/profile_pic.jpg"
-
 ##################
 # Social Buttons #
 ##################
@@ -359,24 +451,8 @@ err-404-img: "img/cwt_logo.png"
 ##################
 
 keybase-username: johnsmith
-keybase-in-social: True
-keybase-in-footer: True
-
-################################################################################
-
-# NB! Tread carefully if you want to change the variables below this point!
-
-# Sections shown in the index page
-
-pages_list:
-  About: 'about'
-  Projects: 'projects'
-  Skills:  'skills'  
-  Publications: 'https://pubmed.ncbi.nlm.nih.gov/?term=Brian+Gereke'
-  Dissertation: 'dissertation/dissertation.pdf'  
-  Resume: 'resume/Gereke_Resume.pdf'
-  CV: 'resume/Gereke_CV.pdf'
-  Contact: 'contact'
+keybase-in-social: False
+keybase-in-footer: False
 
 # Exclusion list from the generated _site
 
