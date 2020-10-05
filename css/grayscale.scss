@@ -55,6 +55,7 @@ p {
 
 p.about {
     text-align: justify;
+    margin: 0 0 35px;
 }
 
 div {
@@ -339,6 +340,12 @@ a {
 .project-skills {
     margin: 5px;
     text-align: justify;
+}
+
+.dog-img {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 5px;
 }
 
 .btn {
