@@ -16,7 +16,7 @@ force-https: True
 lang: "en"
 author: "Brian Gereke"
 title: "{ BRIAN_GEREKE }"
-description: "Blog and website of Brian Gereke, blogging mainly for tech. Opinions expressed are mine."
+description: "Website of Brian Gereke. Opinions expressed are mine."
 keywords: "personal, jekyll, theme"
 favicon: #"img/cwt_logo.png"
 
